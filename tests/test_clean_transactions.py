@@ -1,46 +1,50 @@
 
 import pandas as pd
 
+from src.transformation.clean_transactions import (
+    validate_transactions,
+    remove_duplicates,
+)
 
-def test_missing_transaction_id_is_detected():
-    df = pd.DataFrame({
-        "transaction_id": [None, "T002"],
-        "customer_id": ["C001", "C002"],
-        "account_id": ["A001", "A002"],
-        "amount": [100, 200],
-        "transaction_timestamp": ["2026-01-01", "2026-01-02"]
+
+def create_test_data():
+    """Create sample transaction records for testing."""
+    return pd.DataFrame({
+        "transaction_id": ["T001", "T002", "T003"],
+        "customer_id": ["C001", "C002", "C003"],
+        "account_id": ["A001", "A002", "A003"],
+        "amount": [100, 200, 300],
+        "transaction_timestamp": [
+            "2026-01-01",
+            "2026-01-02",
+            "2026-01-03"
+        ]
     })
 
-    invalid = (
-        df["transaction_id"].isna()
-        | df["customer_id"].isna()
-        | df["account_id"].isna()
-        | df["amount"].isna()
-        | (df["amount"] <= 0)
-        | pd.to_datetime(
-            df["transaction_timestamp"], errors="coerce"
-        ).isna()
-    )
 
-    assert invalid.iloc[0] == True
-    assert invalid.iloc[1] == False
+def test_missing_transaction_id_is_detected():
+    df = create_test_data()
+    df.loc[0, "transaction_id"] = None
+
+    invalid = validate_transactions(df)
+
+    assert invalid.tolist() == [True, False, False]
 
 
 def test_invalid_amount_is_detected():
-    df = pd.DataFrame({
-        "amount": [100, 0, -50]
-    })
+    df = create_test_data()
+    df["amount"] = [100, 0, -50]
 
-    invalid = df["amount"].isna() | (df["amount"] <= 0)
+    invalid = validate_transactions(df)
 
     assert invalid.tolist() == [False, True, True]
 
 
 def test_duplicate_transaction_id_is_detected():
-    df = pd.DataFrame({
-        "transaction_id": ["T001", "T002", "T001"]
-    })
+    df = create_test_data()
+    df.loc[2, "transaction_id"] = "T001"
 
-    duplicates = df["transaction_id"].duplicated(keep="first")
+    duplicates = remove_duplicates(df)
 
     assert duplicates.tolist() == [False, False, True]
+

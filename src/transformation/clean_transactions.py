@@ -9,54 +9,86 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_FILE = PROJECT_ROOT / "data" / "raw" / "financial_transactions.csv"
 OUTPUT_FOLDER = PROJECT_ROOT / "data" / "processed"
 
-OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
-# 3. EXTRACT: Read financial transactions
-print("Reading financial transactions...")
+def read_transactions(input_file=INPUT_FILE):
+    """Read financial transactions from the CSV file."""
+    print("Reading financial transactions...")
 
-df = pd.read_csv(INPUT_FILE)
+    df = pd.read_csv(input_file)
 
-print(f"Total records received: {len(df)}")
+    print(f"Total records received: {len(df)}")
 
-# 4. TRANSFORM: Clean and validate data
+    return df
 
-# Convert amount to numeric
-df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
 
-# Convert timestamp to datetime
-df["transaction_timestamp"] = pd.to_datetime(
-    df["transaction_timestamp"], errors="coerce"
-)
+def validate_transactions(df):
+    """Identify records with missing or invalid values."""
+    df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
 
-# Identify invalid records
-invalid = (
-    df["transaction_id"].isna()
-    | df["customer_id"].isna()
-    | df["account_id"].isna()
-    | df["amount"].isna()
-    | (df["amount"] <= 0)
-    | df["transaction_timestamp"].isna()
-)
+    df["transaction_timestamp"] = pd.to_datetime(
+        df["transaction_timestamp"], errors="coerce"
+    )
 
-# Identify duplicate transaction IDs
-duplicates = df["transaction_id"].duplicated(keep="first")
+    invalid = (
+        df["transaction_id"].isna()
+        | df["customer_id"].isna()
+        | df["account_id"].isna()
+        | df["amount"].isna()
+        | (df["amount"] <= 0)
+        | df["transaction_timestamp"].isna()
+    )
 
-rejected = df[invalid | duplicates].copy()
-cleaned = df[~(invalid | duplicates)].copy()
+    return invalid
 
-print(f"Valid records: {len(cleaned)}")
-print(f"Rejected records: {len(rejected)}")
 
-# 5. LOAD: Save clean data as Parquet
-cleaned.to_parquet(
-    OUTPUT_FOLDER / "clean_transactions.parquet",
-    index=False
-)
+def remove_duplicates(df):
+    """Identify duplicate transaction IDs."""
+    duplicates = df["transaction_id"].duplicated(keep="first")
 
-# Save rejected records for review
-rejected.to_csv(
-    OUTPUT_FOLDER / "rejected_transactions.csv",
-    index=False
-)
+    return duplicates
 
-print("ETL pipeline completed successfully!")
+
+def save_clean_transactions(df, output_folder=OUTPUT_FOLDER):
+    """Save valid transactions as a Parquet file."""
+    output_folder.mkdir(parents=True, exist_ok=True)
+
+    df.to_parquet(
+        output_folder / "clean_transactions.parquet",
+        index=False
+    )
+
+
+def save_rejected_transactions(df, output_folder=OUTPUT_FOLDER):
+    """Save rejected transactions as a CSV file."""
+    output_folder.mkdir(parents=True, exist_ok=True)
+
+    df.to_csv(
+        output_folder / "rejected_transactions.csv",
+        index=False
+    )
+
+
+def run_pipeline():
+    """Run the complete financial transactions ETL pipeline."""
+    df = read_transactions()
+
+    invalid = validate_transactions(df)
+    duplicates = remove_duplicates(df)
+
+    rejected_mask = invalid | duplicates
+
+    rejected = df[rejected_mask].copy()
+    cleaned = df[~rejected_mask].copy()
+
+    print(f"Valid records: {len(cleaned)}")
+    print(f"Rejected records: {len(rejected)}")
+
+    save_clean_transactions(cleaned)
+    save_rejected_transactions(rejected)
+
+    print("ETL pipeline completed successfully!")
+
+
+if __name__ == "__main__":
+    run_pipeline()
+
