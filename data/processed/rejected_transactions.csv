@@ -1,0 +1,59 @@
+transaction_id,customer_id,account_id,transaction_timestamp,amount,currency,transaction_type,merchant_category,merchant_name,city,country,payment_method,status,fraud_flag
+TXN0000841,CUST00127,ACC00113,2025-01-03 16:36:00,-25.8,USD,refund,electronics,TechHub,New York,US,digital_wallet,reversed,0
+TXN0000858,CUST00243,ACC00208,2025-01-09 15:48:00,-43.44,USD,refund,utilities,Skyway Airlines,Seattle,US,digital_wallet,settled,0
+TXN0000330,CUST00234,ACC00303,2025-01-21 12:56:00,-50.82,USD,refund,healthcare,Skyway Airlines,Dallas,US,credit_card,pending,0
+TXN0000120,CUST00078,ACC00235,2025-01-23 16:23:00,-57.51,USD,refund,grocery,Power & Light,Atlanta,US,digital_wallet,pending,0
+TXN0000318,CUST00212,ACC00309,2025-01-30 08:48:00,-19.88,USD,refund,electronics,Community Pharmacy,Dallas,US,credit_card,settled,0
+TXN0000779,CUST00201,ACC00053,2025-01-31 13:28:00,-25.17,USD,refund,restaurants,Skyway Airlines,Atlanta,US,debit_card,settled,0
+TXN0000403,CUST00028,ACC00213,2025-02-03 20:39:00,-27.26,USD,refund,restaurants,Power & Light,Dallas,US,digital_wallet,reversed,0
+TXN0000177,CUST00171,ACC00178,2025-02-17 06:53:00,-27.47,USD,refund,fuel,QuickFuel,Dallas,US,credit_card,settled,0
+TXN0000043,CUST00094,ACC00221,2025-02-20 22:52:00,-24.15,USD,refund,healthcare,Community Pharmacy,Chicago,US,debit_card,settled,0
+TXN0000639,CUST00132,ACC00060,2025-02-21 14:21:00,-7.46,USD,refund,electronics,Power & Light,Seattle,US,bank_transfer,pending,0
+TXN0000830,CUST00204,ACC00122,2025-02-23 02:12:00,-20.45,USD,refund,utilities,Harbor Cafe,Atlanta,US,digital_wallet,reversed,0
+TXN0000351,CUST00011,ACC00217,2025-02-27 01:35:00,-37.0,USD,refund,retail,TechHub,Chicago,US,credit_card,reversed,0
+TXN0000345,CUST00123,ACC00103,2025-03-12 14:58:00,-16.93,USD,refund,grocery,TechHub,Atlanta,US,credit_card,settled,0
+TXN0000296,CUST00127,ACC00198,2025-03-24 02:20:00,-13.56,USD,refund,electronics,Power & Light,Chicago,US,debit_card,reversed,0
+TXN0000939,CUST00126,ACC00033,2025-04-01 08:37:00,-34.6,USD,refund,electronics,Harbor Cafe,Atlanta,US,credit_card,reversed,0
+TXN0000857,CUST00049,ACC00310,2025-04-11 09:22:00,-11.79,USD,refund,fuel,Fresh Market,Dallas,US,bank_transfer,settled,0
+TXN0000914,CUST00117,ACC00206,2025-04-12 02:48:00,-131.3,USD,refund,grocery,Harbor Cafe,New York,US,bank_transfer,settled,0
+TXN0000672,CUST00187,ACC00213,2025-04-12 15:07:00,-3.41,USD,refund,restaurants,Skyway Airlines,Seattle,US,credit_card,settled,0
+TXN0000427,CUST00076,ACC00325,2025-04-15 21:54:00,-10.33,USD,refund,fuel,Community Pharmacy,Atlanta,US,debit_card,reversed,0
+TXN0000194,CUST00143,ACC00188,2025-04-16 01:15:00,-7.8,USD,refund,electronics,Everyday Goods,Dallas,US,debit_card,settled,0
+TXN0000094,CUST00170,ACC00334,2025-04-21 18:13:00,-19.54,USD,refund,utilities,Fresh Market,Seattle,US,credit_card,reversed,0
+TXN0000947,CUST00042,ACC00215,2025-04-22 18:27:00,-5.9,USD,refund,healthcare,Everyday Goods,Atlanta,US,digital_wallet,settled,0
+TXN0000530,CUST00176,ACC00192,2025-04-24 14:08:00,-10.98,USD,refund,restaurants,Harbor Cafe,Chicago,US,debit_card,settled,0
+TXN0000819,CUST00092,ACC00199,2025-05-10 00:33:00,-29.44,USD,refund,grocery,Harbor Cafe,Atlanta,US,digital_wallet,settled,0
+TXN0000865,CUST00126,ACC00014,2025-05-16 22:40:00,-14.69,USD,refund,electronics,Harbor Cafe,Atlanta,US,digital_wallet,settled,0
+TXN0000731,CUST00001,ACC00206,2025-05-26 16:34:00,-32.98,USD,refund,fuel,Community Pharmacy,Chicago,US,debit_card,settled,0
+TXN0000989,CUST00084,ACC00138,2025-05-29 11:44:00,-21.74,USD,refund,retail,Skyway Airlines,Chicago,US,digital_wallet,settled,0
+TXN0000116,CUST00018,ACC00284,2025-05-31 20:20:00,-36.65,USD,refund,electronics,TechHub,Chicago,US,bank_transfer,settled,0
+TXN0000036,CUST00231,ACC00184,2025-06-02 23:21:00,-8.0,USD,refund,electronics,Harbor Cafe,New York,US,bank_transfer,reversed,0
+TXN0000749,CUST00229,ACC00340,2025-06-04 15:53:00,-14.71,USD,refund,grocery,Skyway Airlines,Atlanta,US,digital_wallet,settled,0
+TXN0000091,CUST00088,ACC00260,2025-07-14 13:10:00,-29.88,USD,refund,grocery,QuickFuel,Seattle,US,bank_transfer,reversed,0
+TXN0000682,CUST00036,ACC00266,2025-07-24 22:07:00,-8.77,USD,refund,healthcare,Power & Light,New York,US,digital_wallet,settled,0
+TXN0000759,CUST00039,ACC00066,2025-08-07 18:01:00,-11.49,USD,refund,electronics,Everyday Goods,Dallas,US,bank_transfer,reversed,0
+TXN0000675,CUST00214,ACC00300,2025-08-10 07:17:00,-6.64,USD,refund,utilities,Power & Light,Dallas,US,credit_card,settled,0
+TXN0000504,CUST00125,ACC00120,2025-08-19 15:25:00,-47.61,USD,refund,healthcare,Power & Light,Chicago,US,credit_card,settled,0
+TXN0000405,CUST00100,ACC00337,2025-08-23 08:37:00,-17.29,USD,refund,retail,Everyday Goods,New York,US,credit_card,settled,0
+TXN0000063,CUST00201,ACC00022,2025-09-10 19:49:00,-8.97,USD,refund,retail,Community Pharmacy,Atlanta,US,debit_card,reversed,0
+TXN0000821,CUST00060,ACC00253,2025-09-22 07:52:00,-16.16,USD,refund,grocery,QuickFuel,Chicago,US,digital_wallet,reversed,0
+TXN0000203,CUST00074,ACC00063,2025-10-04 11:38:00,-80.08,USD,refund,retail,Community Pharmacy,Dallas,US,credit_card,settled,0
+TXN0000863,CUST00147,ACC00201,2025-10-05 16:01:00,-127.42,USD,refund,electronics,Everyday Goods,Atlanta,US,debit_card,reversed,0
+TXN0000329,CUST00196,ACC00113,2025-10-10 20:10:00,-50.61,USD,refund,healthcare,Skyway Airlines,New York,US,credit_card,settled,0
+TXN0000968,CUST00084,ACC00205,2025-10-11 03:37:00,-164.18,USD,refund,travel,Harbor Cafe,Chicago,US,debit_card,settled,0
+TXN0000723,CUST00214,ACC00300,2025-10-11 22:52:00,-7.04,USD,refund,electronics,Everyday Goods,Dallas,US,credit_card,settled,0
+TXN0000163,CUST00142,ACC00011,2025-10-12 07:40:00,-86.37,USD,refund,utilities,Fresh Market,Atlanta,US,digital_wallet,settled,0
+TXN0000259,CUST00097,ACC00144,2025-10-14 03:02:00,-42.26,USD,refund,healthcare,Harbor Cafe,Dallas,US,credit_card,reversed,0
+TXN0000321,CUST00034,ACC00102,2025-10-19 16:40:00,-29.87,USD,refund,healthcare,Harbor Cafe,Chicago,US,bank_transfer,settled,0
+TXN0000738,CUST00108,ACC00093,2025-10-25 11:28:00,-72.44,USD,refund,travel,Fresh Market,Chicago,US,bank_transfer,settled,0
+TXN0000149,CUST00024,ACC00331,2025-11-05 07:33:00,-45.69,USD,refund,healthcare,Fresh Market,Atlanta,US,bank_transfer,settled,0
+TXN0000099,CUST00092,ACC00192,2025-11-10 14:47:00,-27.25,USD,refund,travel,TechHub,Dallas,US,digital_wallet,reversed,0
+TXN0000278,CUST00139,ACC00022,2025-11-18 09:26:00,-14.88,USD,refund,electronics,Everyday Goods,Dallas,US,debit_card,settled,0
+TXN0000816,CUST00163,ACC00134,2025-11-26 15:49:00,-6.14,USD,refund,fuel,TechHub,Dallas,US,bank_transfer,settled,0
+TXN0000430,CUST00218,ACC00282,2025-12-02 21:11:00,-4.67,USD,refund,restaurants,QuickFuel,New York,US,debit_card,settled,0
+TXN0000165,CUST00213,ACC00238,2025-12-15 10:56:00,-71.05,USD,refund,travel,Skyway Airlines,Chicago,US,debit_card,pending,0
+TXN0000025,CUST00074,ACC00217,2025-12-21 09:11:00,-15.73,USD,refund,travel,TechHub,Seattle,US,bank_transfer,settled,0
+TXN0000238,CUST00036,ACC00280,2025-12-22 13:56:00,-32.67,USD,refund,travel,Fresh Market,Chicago,US,debit_card,settled,0
+TXN0000357,CUST00080,ACC00144,2025-12-24 23:40:00,-26.62,USD,refund,restaurants,TechHub,Dallas,US,credit_card,settled,0
+TXN0000918,CUST00009,ACC00066,2025-12-29 13:52:00,-32.67,USD,refund,restaurants,QuickFuel,Atlanta,US,digital_wallet,settled,0
+TXN0000161,CUST00017,ACC00057,2025-12-30 23:08:00,-10.23,USD,refund,grocery,TechHub,Seattle,US,credit_card,settled,0

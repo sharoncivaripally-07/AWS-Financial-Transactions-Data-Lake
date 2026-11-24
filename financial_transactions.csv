@@ -1,0 +1,1001 @@
+transaction_id,customer_id,account_id,transaction_timestamp,amount,currency,transaction_type,merchant_category,merchant_name,city,country,payment_method,status,fraud_flag
+TXN0000511,CUST00089,ACC00147,2025-01-01T01:36:00,35.53,USD,purchase,fuel,Roadside Gas,New York,US,debit_card,settled,0
+TXN0000412,CUST00247,ACC00317,2025-01-01T02:57:00,-8.81,USD,refund,grocery,City Foods,Atlanta,US,bank_transfer,reversed,0
+TXN0000015,CUST00005,ACC00058,2025-01-01T09:59:00,4.83,USD,purchase,travel,Skyway Airlines,Atlanta,US,bank_transfer,pending,0
+TXN0000677,CUST00099,ACC00171,2025-01-01T23:49:00,8.93,USD,withdrawal,healthcare,Health Supplies,Seattle,US,debit_card,settled,0
+TXN0000320,CUST00218,ACC00158,2025-01-02T01:33:00,23.8,USD,purchase,grocery,Fresh Market,Dallas,US,credit_card,pending,0
+TXN0000165,CUST00147,ACC00214,2025-01-02T03:20:00,71.05,USD,purchase,fuel,QuickFuel,Seattle,US,debit_card,settled,0
+TXN0000646,CUST00123,ACC00224,2025-01-03T16:43:00,20.64,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,debit_card,pending,0
+TXN0000779,CUST00047,ACC00214,2025-01-04T00:06:00,25.17,USD,purchase,electronics,TechHub,Atlanta,US,credit_card,reversed,0
+TXN0000673,CUST00011,ACC00241,2025-01-04T16:44:00,19.25,USD,purchase,travel,Central Hotels,Atlanta,US,debit_card,settled,0
+TXN0000580,CUST00061,ACC00112,2025-01-05T04:29:00,85.09,USD,purchase,utilities,NetConnect,Seattle,US,digital_wallet,pending,0
+TXN0000055,CUST00193,ACC00200,2025-01-05T07:02:00,76.02,USD,transfer,retail,Urban Outfitters,Seattle,US,credit_card,settled,0
+TXN0000940,CUST00001,ACC00050,2025-01-05T16:12:00,15.42,USD,transfer,retail,Everyday Goods,Dallas,US,digital_wallet,pending,0
+TXN0000581,CUST00072,ACC00318,2025-01-05T18:52:00,38.03,USD,purchase,utilities,NetConnect,New York,US,credit_card,reversed,0
+TXN0000106,CUST00234,ACC00311,2025-01-06T21:31:00,40.61,USD,purchase,retail,Home Essentials,Dallas,US,digital_wallet,settled,0
+TXN0000433,CUST00115,ACC00124,2025-01-07T09:51:00,20.71,USD,purchase,utilities,NetConnect,Atlanta,US,credit_card,settled,0
+TXN0000487,CUST00064,ACC00148,2025-01-08T01:55:00,14.2,USD,purchase,retail,Everyday Goods,Dallas,US,digital_wallet,settled,0
+TXN0000498,CUST00035,ACC00323,2025-01-08T02:15:00,22.41,USD,purchase,travel,Central Hotels,Seattle,US,bank_transfer,pending,0
+TXN0000874,CUST00143,ACC00059,2025-01-08T04:52:00,13.05,USD,purchase,grocery,Fresh Market,Dallas,US,bank_transfer,settled,0
+TXN0000814,CUST00242,ACC00036,2025-01-08T05:51:00,33.0,USD,purchase,utilities,Power & Light,Chicago,US,bank_transfer,reversed,0
+TXN0000769,CUST00250,ACC00204,2025-01-08T12:21:00,14.48,USD,purchase,utilities,NetConnect,New York,US,credit_card,settled,0
+TXN0000865,CUST00204,ACC00220,2025-01-08T17:21:00,14.69,USD,purchase,retail,Home Essentials,Chicago,US,debit_card,pending,0
+TXN0000899,CUST00101,ACC00081,2025-01-09T01:03:00,90.6,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,credit_card,pending,0
+TXN0000218,CUST00178,ACC00121,2025-01-09T07:51:00,21.4,USD,purchase,healthcare,Community Pharmacy,Dallas,US,debit_card,settled,0
+TXN0000329,CUST00034,ACC00102,2025-01-09T16:57:00,50.61,USD,purchase,travel,Skyway Airlines,New York,US,bank_transfer,settled,0
+TXN0000520,CUST00099,ACC00227,2025-01-10T04:28:00,57.48,USD,purchase,fuel,QuickFuel,Seattle,US,debit_card,settled,0
+TXN0000311,CUST00042,ACC00255,2025-01-10T05:20:00,21.81,USD,purchase,travel,Skyway Airlines,New York,US,bank_transfer,settled,0
+TXN0000423,CUST00098,ACC00075,2025-01-10T07:10:00,21.14,USD,purchase,fuel,QuickFuel,Seattle,US,debit_card,settled,0
+TXN0000921,CUST00195,ACC00064,2025-01-10T16:17:00,79.33,USD,purchase,electronics,Device World,Atlanta,US,credit_card,reversed,0
+TXN0000090,CUST00058,ACC00059,2025-01-10T22:58:00,45.3,USD,purchase,fuel,Roadside Gas,Atlanta,US,debit_card,settled,0
+TXN0000389,CUST00049,ACC00010,2025-01-11T06:00:00,70.14,USD,withdrawal,electronics,Digital Store,Dallas,US,debit_card,reversed,0
+TXN0000238,CUST00247,ACC00061,2025-01-12T03:58:00,32.67,USD,purchase,healthcare,Health Supplies,Dallas,US,digital_wallet,settled,0
+TXN0000070,CUST00104,ACC00125,2025-01-13T13:20:00,14.22,USD,purchase,utilities,City Water,Seattle,US,bank_transfer,settled,0
+TXN0000706,CUST00149,ACC00030,2025-01-13T18:37:00,49.7,USD,withdrawal,restaurants,Harbor Cafe,Dallas,US,bank_transfer,settled,0
+TXN0000730,CUST00111,ACC00061,2025-01-13T20:48:00,12.45,USD,transfer,healthcare,CarePlus Clinic,Atlanta,US,digital_wallet,settled,0
+TXN0000793,CUST00004,ACC00088,2025-01-14T01:05:00,35.57,USD,purchase,restaurants,Pasta House,Seattle,US,digital_wallet,settled,0
+TXN0000464,CUST00243,ACC00044,2025-01-14T13:24:00,33.58,USD,withdrawal,retail,Everyday Goods,Atlanta,US,digital_wallet,settled,0
+TXN0000593,CUST00205,ACC00182,2025-01-14T15:07:00,43.77,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,credit_card,settled,0
+TXN0000139,CUST00221,ACC00161,2025-01-14T15:31:00,61.16,USD,purchase,grocery,City Foods,Seattle,US,digital_wallet,settled,0
+TXN0000972,CUST00201,ACC00272,2025-01-15T09:05:00,13.72,USD,purchase,travel,Skyway Airlines,Seattle,US,debit_card,reversed,0
+TXN0000374,CUST00122,ACC00068,2025-01-15T14:26:00,70.76,USD,withdrawal,fuel,Metro Petroleum,Seattle,US,credit_card,settled,0
+TXN0000166,CUST00012,ACC00326,2025-01-15T19:22:00,40.97,USD,purchase,healthcare,CarePlus Clinic,New York,US,bank_transfer,pending,0
+TXN0000559,CUST00079,ACC00171,2025-01-16T15:32:00,40.22,USD,purchase,utilities,City Water,Atlanta,US,digital_wallet,reversed,0
+TXN0000224,CUST00191,ACC00112,2025-01-16T20:27:00,5.4,USD,purchase,utilities,NetConnect,Dallas,US,debit_card,settled,0
+TXN0000342,CUST00199,ACC00057,2025-01-16T22:57:00,34.59,USD,purchase,healthcare,Health Supplies,New York,US,bank_transfer,settled,0
+TXN0000393,CUST00032,ACC00188,2025-01-16T22:57:00,7.24,USD,purchase,travel,Central Hotels,Chicago,US,debit_card,settled,0
+TXN0000738,CUST00147,ACC00200,2025-01-17T04:36:00,72.44,USD,transfer,utilities,City Water,Atlanta,US,debit_card,pending,0
+TXN0000696,CUST00174,ACC00344,2025-01-17T10:03:00,19.89,USD,purchase,fuel,QuickFuel,Chicago,US,digital_wallet,pending,0
+TXN0000837,CUST00107,ACC00013,2025-01-17T22:33:00,127.8,USD,purchase,grocery,City Foods,Seattle,US,bank_transfer,settled,0
+TXN0000040,CUST00085,ACC00143,2025-01-18T05:33:00,33.01,USD,purchase,electronics,TechHub,Chicago,US,bank_transfer,pending,0
+TXN0000924,CUST00088,ACC00125,2025-01-18T06:04:00,13.46,USD,purchase,retail,Everyday Goods,Dallas,US,debit_card,settled,0
+TXN0000676,CUST00198,ACC00071,2025-01-18T18:39:00,12.46,USD,transfer,utilities,NetConnect,Atlanta,US,digital_wallet,pending,0
+TXN0000859,CUST00177,ACC00217,2025-01-19T11:24:00,15.61,USD,transfer,restaurants,Harbor Cafe,Atlanta,US,credit_card,settled,0
+TXN0000780,CUST00101,ACC00192,2025-01-19T21:43:00,50.43,USD,purchase,restaurants,Pasta House,Dallas,US,debit_card,settled,0
+TXN0000131,CUST00008,ACC00093,2025-01-20T02:49:00,5.75,USD,purchase,electronics,Device World,Seattle,US,bank_transfer,settled,0
+TXN0000728,CUST00155,ACC00348,2025-01-20T11:28:00,38.38,USD,transfer,restaurants,Northside Grill,Seattle,US,credit_card,pending,0
+TXN0000703,CUST00068,ACC00154,2025-01-20T13:03:00,-13.41,USD,refund,utilities,NetConnect,Chicago,US,digital_wallet,settled,0
+TXN0000057,CUST00145,ACC00340,2025-01-20T15:16:00,11.71,USD,transfer,travel,Metro Transit,Atlanta,US,debit_card,reversed,0
+TXN0000339,CUST00243,ACC00291,2025-01-21T12:56:00,40.97,USD,purchase,healthcare,Health Supplies,Atlanta,US,credit_card,settled,0
+TXN0000665,CUST00019,ACC00121,2025-01-22T03:57:00,13.29,USD,purchase,travel,Central Hotels,Chicago,US,digital_wallet,settled,0
+TXN0000276,CUST00116,ACC00304,2025-01-22T06:10:00,43.04,USD,purchase,retail,Urban Outfitters,Seattle,US,digital_wallet,settled,1
+TXN0000332,CUST00045,ACC00182,2025-01-22T11:14:00,11.05,USD,purchase,retail,Everyday Goods,Seattle,US,credit_card,pending,0
+TXN0000944,CUST00125,ACC00345,2025-01-22T14:27:00,24.55,USD,purchase,restaurants,Harbor Cafe,Dallas,US,debit_card,pending,0
+TXN0000875,CUST00045,ACC00113,2025-01-22T14:47:00,26.23,USD,purchase,healthcare,CarePlus Clinic,New York,US,credit_card,settled,0
+TXN0000188,CUST00075,ACC00329,2025-01-23T01:17:00,25.21,USD,purchase,retail,Urban Outfitters,Atlanta,US,digital_wallet,reversed,0
+TXN0000850,CUST00173,ACC00064,2025-01-23T12:50:00,15.94,USD,withdrawal,restaurants,Northside Grill,New York,US,digital_wallet,pending,0
+TXN0000595,CUST00128,ACC00122,2025-01-24T00:44:00,76.52,USD,purchase,fuel,Roadside Gas,Dallas,US,digital_wallet,settled,0
+TXN0000009,CUST00069,ACC00034,2025-01-24T08:59:00,-16.95,USD,refund,grocery,Fresh Market,Chicago,US,bank_transfer,pending,0
+TXN0000346,CUST00236,ACC00314,2025-01-24T13:55:00,34.19,USD,purchase,retail,Everyday Goods,Atlanta,US,debit_card,settled,0
+TXN0000116,CUST00114,ACC00228,2025-01-24T19:45:00,36.65,USD,purchase,retail,Everyday Goods,Dallas,US,bank_transfer,settled,0
+TXN0000230,CUST00063,ACC00023,2025-01-25T10:47:00,53.5,USD,purchase,restaurants,Northside Grill,New York,US,digital_wallet,settled,0
+TXN0000244,CUST00242,ACC00343,2025-01-25T15:06:00,64.44,USD,withdrawal,grocery,Fresh Market,Atlanta,US,debit_card,settled,0
+TXN0000960,CUST00129,ACC00064,2025-01-26T00:12:00,42.42,USD,purchase,fuel,Roadside Gas,Chicago,US,digital_wallet,settled,0
+TXN0000333,CUST00063,ACC00332,2025-01-26T05:32:00,29.25,USD,purchase,utilities,City Water,Chicago,US,digital_wallet,reversed,0
+TXN0000508,CUST00222,ACC00244,2025-01-26T14:22:00,11.43,USD,purchase,travel,Skyway Airlines,New York,US,bank_transfer,settled,0
+TXN0000099,CUST00162,ACC00148,2025-01-27T03:22:00,27.25,USD,purchase,utilities,Power & Light,Atlanta,US,debit_card,settled,0
+TXN0000883,CUST00116,ACC00121,2025-01-27T15:42:00,16.62,USD,purchase,retail,Urban Outfitters,Atlanta,US,credit_card,settled,0
+TXN0000653,CUST00168,ACC00010,2025-01-27T20:29:00,20.72,USD,purchase,electronics,Device World,New York,US,debit_card,pending,0
+TXN0000748,CUST00035,ACC00015,2025-01-27T22:41:00,12.74,USD,purchase,retail,Urban Outfitters,Seattle,US,bank_transfer,settled,0
+TXN0000542,CUST00036,ACC00136,2025-01-28T11:29:00,8.76,USD,purchase,travel,Skyway Airlines,New York,US,credit_card,settled,0
+TXN0000478,CUST00158,ACC00336,2025-01-28T11:49:00,37.01,USD,purchase,restaurants,Pasta House,Atlanta,US,bank_transfer,pending,0
+TXN0000624,CUST00029,ACC00298,2025-01-28T13:44:00,104.11,USD,purchase,healthcare,CarePlus Clinic,New York,US,debit_card,settled,0
+TXN0000039,CUST00052,ACC00236,2025-01-29T04:45:00,7.18,USD,withdrawal,restaurants,Northside Grill,Seattle,US,bank_transfer,settled,0
+TXN0000463,CUST00015,ACC00086,2025-01-29T12:54:00,13.47,USD,withdrawal,travel,Skyway Airlines,Chicago,US,credit_card,settled,0
+TXN0000527,CUST00144,ACC00151,2025-01-29T18:06:00,5.33,USD,purchase,travel,Central Hotels,Dallas,US,digital_wallet,pending,0
+TXN0000237,CUST00206,ACC00301,2025-01-29T19:08:00,3.58,USD,withdrawal,retail,Home Essentials,Atlanta,US,credit_card,settled,0
+TXN0000028,CUST00169,ACC00299,2025-01-29T22:32:00,39.48,USD,purchase,electronics,Digital Store,Atlanta,US,bank_transfer,pending,0
+TXN0000694,CUST00030,ACC00158,2025-01-30T04:27:00,50.2,USD,purchase,restaurants,Harbor Cafe,Seattle,US,digital_wallet,reversed,0
+TXN0000084,CUST00121,ACC00266,2025-01-30T07:05:00,16.15,USD,purchase,fuel,Metro Petroleum,Atlanta,US,digital_wallet,settled,0
+TXN0000787,CUST00174,ACC00115,2025-01-30T10:42:00,62.42,USD,purchase,retail,Home Essentials,New York,US,credit_card,pending,0
+TXN0000721,CUST00030,ACC00198,2025-01-30T13:41:00,36.88,USD,purchase,healthcare,CarePlus Clinic,Dallas,US,digital_wallet,pending,0
+TXN0000535,CUST00020,ACC00111,2025-01-30T14:27:00,14.13,USD,purchase,fuel,Metro Petroleum,Atlanta,US,debit_card,settled,0
+TXN0000658,CUST00097,ACC00081,2025-01-30T15:15:00,26.47,USD,purchase,utilities,Power & Light,Chicago,US,digital_wallet,reversed,0
+TXN0000147,CUST00167,ACC00097,2025-01-30T20:55:00,7.87,USD,purchase,retail,Urban Outfitters,Seattle,US,digital_wallet,reversed,0
+TXN0000772,CUST00044,ACC00258,2025-01-30T22:42:00,15.45,USD,purchase,travel,Skyway Airlines,Atlanta,US,bank_transfer,settled,0
+TXN0000187,CUST00021,ACC00024,2025-01-30T23:55:00,-43.52,USD,refund,healthcare,Health Supplies,Atlanta,US,bank_transfer,settled,0
+TXN0000945,CUST00203,ACC00004,2025-01-31T11:32:00,171.85,USD,purchase,grocery,Green Grocer,Atlanta,US,bank_transfer,reversed,0
+TXN0000809,CUST00162,ACC00061,2025-01-31T13:28:00,95.18,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,bank_transfer,settled,0
+TXN0000572,CUST00133,ACC00276,2025-01-31T21:16:00,144.96,USD,withdrawal,utilities,City Water,Seattle,US,debit_card,settled,0
+TXN0000435,CUST00083,ACC00264,2025-02-01T22:21:00,121.8,USD,purchase,utilities,Power & Light,Seattle,US,debit_card,settled,0
+TXN0000771,CUST00159,ACC00196,2025-02-03T03:22:00,55.02,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,digital_wallet,reversed,0
+TXN0000415,CUST00036,ACC00210,2025-02-03T08:01:00,37.8,USD,withdrawal,healthcare,Community Pharmacy,New York,US,bank_transfer,pending,0
+TXN0000833,CUST00189,ACC00143,2025-02-03T08:45:00,9.93,USD,transfer,retail,Home Essentials,Dallas,US,debit_card,pending,0
+TXN0000251,CUST00231,ACC00279,2025-02-03T21:43:00,7.68,USD,transfer,utilities,NetConnect,Dallas,US,debit_card,settled,0
+TXN0000499,CUST00016,ACC00111,2025-02-04T17:46:00,11.3,USD,purchase,fuel,Roadside Gas,Dallas,US,digital_wallet,settled,0
+TXN0000789,CUST00132,ACC00056,2025-02-04T18:06:00,25.28,USD,purchase,retail,Home Essentials,Dallas,US,digital_wallet,settled,0
+TXN0000821,CUST00115,ACC00153,2025-02-04T18:11:00,16.16,USD,purchase,healthcare,Health Supplies,New York,US,debit_card,settled,0
+TXN0000394,CUST00170,ACC00056,2025-02-05T09:07:00,169.26,USD,purchase,fuel,Metro Petroleum,Atlanta,US,debit_card,settled,0
+TXN0000547,CUST00249,ACC00229,2025-02-06T18:53:00,48.28,USD,purchase,electronics,Digital Store,Chicago,US,debit_card,pending,0
+TXN0000926,CUST00241,ACC00105,2025-02-07T22:38:00,5.91,USD,purchase,restaurants,Harbor Cafe,Chicago,US,debit_card,settled,0
+TXN0000913,CUST00198,ACC00194,2025-02-08T04:01:00,34.79,USD,purchase,fuel,QuickFuel,Seattle,US,credit_card,settled,0
+TXN0000210,CUST00184,ACC00242,2025-02-08T05:20:00,1277.59,USD,purchase,electronics,TechHub,Chicago,US,credit_card,settled,1
+TXN0000626,CUST00200,ACC00006,2025-02-08T10:17:00,16.26,USD,transfer,fuel,Roadside Gas,Atlanta,US,digital_wallet,reversed,0
+TXN0000076,CUST00243,ACC00156,2025-02-09T00:53:00,61.68,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,credit_card,reversed,0
+TXN0000553,CUST00238,ACC00076,2025-02-09T17:07:00,87.16,USD,purchase,restaurants,Northside Grill,New York,US,debit_card,reversed,0
+TXN0000733,CUST00152,ACC00194,2025-02-10T14:04:00,40.78,USD,purchase,travel,Central Hotels,Atlanta,US,bank_transfer,pending,0
+TXN0000697,CUST00102,ACC00076,2025-02-10T19:30:00,37.57,USD,transfer,healthcare,Health Supplies,Atlanta,US,digital_wallet,settled,0
+TXN0000967,CUST00046,ACC00027,2025-02-11T00:27:00,13.79,USD,purchase,retail,Everyday Goods,Chicago,US,bank_transfer,pending,0
+TXN0000935,CUST00189,ACC00127,2025-02-12T00:27:00,42.1,USD,purchase,utilities,Power & Light,Dallas,US,digital_wallet,pending,0
+TXN0000310,CUST00030,ACC00233,2025-02-12T03:58:00,22.15,USD,purchase,retail,Home Essentials,Chicago,US,debit_card,pending,0
+TXN0000387,CUST00054,ACC00087,2025-02-12T05:51:00,38.16,USD,purchase,travel,Central Hotels,Dallas,US,credit_card,settled,0
+TXN0000026,CUST00016,ACC00161,2025-02-12T14:04:00,30.29,USD,purchase,fuel,QuickFuel,Chicago,US,debit_card,reversed,0
+TXN0000839,CUST00047,ACC00014,2025-02-12T21:35:00,72.55,USD,purchase,retail,Home Essentials,Chicago,US,debit_card,settled,0
+TXN0000525,CUST00180,ACC00275,2025-02-13T12:38:00,12.64,USD,purchase,healthcare,Community Pharmacy,New York,US,credit_card,settled,0
+TXN0000225,CUST00240,ACC00242,2025-02-13T21:02:00,16.91,USD,transfer,healthcare,Community Pharmacy,New York,US,bank_transfer,settled,0
+TXN0000868,CUST00112,ACC00263,2025-02-14T01:09:00,37.88,USD,purchase,travel,Central Hotels,New York,US,bank_transfer,reversed,0
+TXN0000022,CUST00205,ACC00056,2025-02-14T03:16:00,21.63,USD,purchase,grocery,Fresh Market,New York,US,credit_card,settled,0
+TXN0000534,CUST00211,ACC00189,2025-02-14T04:48:00,8.08,USD,purchase,restaurants,Pasta House,Seattle,US,debit_card,pending,0
+TXN0000734,CUST00033,ACC00188,2025-02-14T17:27:00,4.94,USD,purchase,fuel,Roadside Gas,Dallas,US,debit_card,settled,0
+TXN0000815,CUST00170,ACC00329,2025-02-14T18:14:00,76.08,USD,purchase,travel,Metro Transit,Seattle,US,debit_card,settled,0
+TXN0000323,CUST00061,ACC00150,2025-02-15T08:28:00,11.96,USD,purchase,retail,Urban Outfitters,New York,US,bank_transfer,settled,0
+TXN0000642,CUST00016,ACC00133,2025-02-15T10:17:00,143.89,USD,purchase,restaurants,Northside Grill,Dallas,US,credit_card,settled,0
+TXN0000860,CUST00008,ACC00246,2025-02-15T18:16:00,51.06,USD,purchase,healthcare,CarePlus Clinic,Dallas,US,debit_card,settled,0
+TXN0000657,CUST00194,ACC00213,2025-02-16T00:52:00,27.49,USD,purchase,travel,Metro Transit,Dallas,US,bank_transfer,settled,0
+TXN0000896,CUST00122,ACC00056,2025-02-16T09:23:00,51.87,USD,purchase,electronics,Device World,Seattle,US,digital_wallet,settled,0
+TXN0000902,CUST00207,ACC00127,2025-02-16T13:57:00,-18.3,USD,refund,travel,Central Hotels,Seattle,US,bank_transfer,reversed,0
+TXN0000746,CUST00069,ACC00147,2025-02-16T21:57:00,13.12,USD,purchase,retail,Home Essentials,Dallas,US,credit_card,pending,0
+TXN0000881,CUST00193,ACC00331,2025-02-17T05:44:00,339.32,USD,purchase,restaurants,Pasta House,Seattle,US,bank_transfer,pending,0
+TXN0000863,CUST00236,ACC00227,2025-02-17T08:27:00,-127.42,USD,refund,retail,Everyday Goods,Dallas,US,bank_transfer,settled,0
+TXN0000446,CUST00186,ACC00298,2025-02-19T01:14:00,52.97,USD,purchase,restaurants,Northside Grill,Dallas,US,bank_transfer,settled,0
+TXN0000920,CUST00234,ACC00300,2025-02-19T03:53:00,32.92,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,digital_wallet,reversed,0
+TXN0000307,CUST00011,ACC00031,2025-02-19T04:13:00,97.29,USD,purchase,restaurants,Northside Grill,New York,US,bank_transfer,settled,0
+TXN0000167,CUST00198,ACC00298,2025-02-19T04:41:00,61.69,USD,purchase,grocery,City Foods,Dallas,US,bank_transfer,settled,0
+TXN0000060,CUST00194,ACC00016,2025-02-19T23:11:00,-71.92,USD,refund,healthcare,Community Pharmacy,Chicago,US,credit_card,settled,0
+TXN0000031,CUST00073,ACC00081,2025-02-20T02:12:00,14.85,USD,withdrawal,travel,Skyway Airlines,Dallas,US,bank_transfer,settled,0
+TXN0000317,CUST00199,ACC00160,2025-02-20T04:34:00,53.62,USD,withdrawal,grocery,Green Grocer,Seattle,US,debit_card,settled,0
+TXN0000438,CUST00234,ACC00133,2025-02-21T07:03:00,6.82,USD,purchase,fuel,Roadside Gas,Atlanta,US,digital_wallet,settled,0
+TXN0000484,CUST00243,ACC00060,2025-02-22T17:02:00,33.23,USD,purchase,restaurants,Pasta House,Atlanta,US,bank_transfer,settled,0
+TXN0000124,CUST00156,ACC00076,2025-02-23T12:20:00,6.67,USD,withdrawal,utilities,Power & Light,Seattle,US,credit_card,settled,0
+TXN0000183,CUST00165,ACC00038,2025-02-23T16:53:00,9.29,USD,purchase,retail,Urban Outfitters,Atlanta,US,digital_wallet,settled,0
+TXN0000268,CUST00123,ACC00299,2025-02-23T20:38:00,6.49,USD,purchase,retail,Urban Outfitters,Seattle,US,digital_wallet,reversed,0
+TXN0000079,CUST00116,ACC00305,2025-02-24T15:51:00,29.72,USD,purchase,travel,Skyway Airlines,Atlanta,US,bank_transfer,pending,0
+TXN0000740,CUST00055,ACC00148,2025-02-24T20:19:00,74.77,USD,withdrawal,electronics,Device World,Seattle,US,debit_card,reversed,0
+TXN0000887,CUST00076,ACC00257,2025-02-25T06:14:00,48.61,USD,purchase,electronics,Digital Store,Dallas,US,debit_card,settled,0
+TXN0000254,CUST00245,ACC00305,2025-02-25T08:30:00,76.13,USD,purchase,retail,Urban Outfitters,Chicago,US,bank_transfer,reversed,0
+TXN0000629,CUST00065,ACC00068,2025-02-25T23:15:00,28.67,USD,withdrawal,restaurants,Pasta House,Chicago,US,bank_transfer,settled,0
+TXN0000177,CUST00094,ACC00204,2025-02-25T23:40:00,27.47,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,bank_transfer,reversed,0
+TXN0000347,CUST00043,ACC00326,2025-02-26T15:46:00,6.37,USD,purchase,travel,Metro Transit,Dallas,US,bank_transfer,settled,0
+TXN0000927,CUST00080,ACC00085,2025-02-26T22:01:00,15.5,USD,purchase,electronics,Digital Store,Chicago,US,credit_card,pending,0
+TXN0000625,CUST00023,ACC00126,2025-02-26T23:14:00,133.38,USD,purchase,fuel,Roadside Gas,Seattle,US,debit_card,reversed,0
+TXN0000502,CUST00119,ACC00324,2025-02-27T02:16:00,182.99,USD,purchase,utilities,Power & Light,Seattle,US,credit_card,settled,0
+TXN0000016,CUST00209,ACC00036,2025-02-27T08:22:00,15.45,USD,purchase,electronics,Digital Store,Atlanta,US,credit_card,pending,0
+TXN0000248,CUST00118,ACC00290,2025-02-27T12:57:00,14.11,USD,purchase,fuel,QuickFuel,Seattle,US,credit_card,pending,0
+TXN0000514,CUST00133,ACC00314,2025-02-27T16:17:00,10.94,USD,purchase,electronics,Digital Store,Dallas,US,bank_transfer,settled,0
+TXN0000922,CUST00128,ACC00152,2025-02-27T19:26:00,9.71,USD,purchase,electronics,TechHub,Atlanta,US,credit_card,settled,0
+TXN0000027,CUST00153,ACC00035,2025-02-28T08:02:00,8.58,USD,withdrawal,travel,Central Hotels,New York,US,credit_card,settled,0
+TXN0000053,CUST00099,ACC00079,2025-02-28T16:11:00,13.78,USD,purchase,healthcare,Health Supplies,Dallas,US,credit_card,settled,0
+TXN0000781,CUST00117,ACC00322,2025-03-01T00:40:00,32.39,USD,purchase,travel,Skyway Airlines,New York,US,debit_card,pending,0
+TXN0000221,CUST00181,ACC00186,2025-03-01T14:47:00,274.42,USD,purchase,electronics,TechHub,Chicago,US,debit_card,reversed,0
+TXN0000824,CUST00228,ACC00067,2025-03-01T16:07:00,18.86,USD,purchase,retail,Urban Outfitters,Seattle,US,credit_card,pending,0
+TXN0000970,CUST00058,ACC00012,2025-03-02T04:11:00,6.48,USD,purchase,restaurants,Pasta House,New York,US,digital_wallet,reversed,0
+TXN0000736,CUST00223,ACC00157,2025-03-03T20:27:00,43.49,USD,transfer,fuel,QuickFuel,Atlanta,US,bank_transfer,settled,0
+TXN0000269,CUST00169,ACC00341,2025-03-03T21:10:00,17.46,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,credit_card,settled,0
+TXN0000892,CUST00110,ACC00214,2025-03-04T12:47:00,45.03,USD,purchase,utilities,Power & Light,Dallas,US,digital_wallet,settled,0
+TXN0000599,CUST00027,ACC00267,2025-03-05T09:45:00,17.39,USD,purchase,grocery,City Foods,Atlanta,US,bank_transfer,settled,0
+TXN0000258,CUST00143,ACC00285,2025-03-05T13:37:00,13.36,USD,purchase,restaurants,Pasta House,Chicago,US,digital_wallet,pending,0
+TXN0000586,CUST00240,ACC00148,2025-03-05T20:08:00,34.75,USD,purchase,grocery,Green Grocer,New York,US,bank_transfer,reversed,0
+TXN0000334,CUST00108,ACC00103,2025-03-05T21:02:00,13.77,USD,purchase,utilities,NetConnect,New York,US,credit_card,settled,0
+TXN0000661,CUST00090,ACC00215,2025-03-06T02:16:00,15.28,USD,purchase,utilities,Power & Light,Atlanta,US,credit_card,settled,0
+TXN0000399,CUST00172,ACC00253,2025-03-06T19:26:00,24.18,USD,transfer,grocery,Fresh Market,New York,US,debit_card,reversed,0
+TXN0000659,CUST00228,ACC00146,2025-03-06T21:51:00,33.05,USD,purchase,grocery,Green Grocer,Chicago,US,digital_wallet,reversed,0
+TXN0000846,CUST00213,ACC00072,2025-03-07T07:53:00,44.37,USD,purchase,restaurants,Pasta House,Dallas,US,bank_transfer,settled,0
+TXN0000751,CUST00198,ACC00161,2025-03-07T17:12:00,10.77,USD,purchase,fuel,Roadside Gas,Seattle,US,digital_wallet,settled,0
+TXN0000750,CUST00061,ACC00058,2025-03-07T18:13:00,6.64,USD,purchase,retail,Home Essentials,Dallas,US,debit_card,settled,0
+TXN0000326,CUST00212,ACC00309,2025-03-07T20:13:00,8.05,USD,purchase,fuel,QuickFuel,New York,US,credit_card,settled,0
+TXN0000327,CUST00102,ACC00263,2025-03-08T10:03:00,86.32,USD,purchase,healthcare,Community Pharmacy,Chicago,US,bank_transfer,settled,0
+TXN0000914,CUST00004,ACC00173,2025-03-08T13:05:00,131.3,USD,purchase,electronics,TechHub,Chicago,US,debit_card,settled,0
+TXN0000639,CUST00169,ACC00112,2025-03-08T22:47:00,7.46,USD,purchase,grocery,City Foods,New York,US,debit_card,reversed,0
+TXN0000741,CUST00025,ACC00304,2025-03-08T23:04:00,4.3,USD,purchase,retail,Urban Outfitters,Chicago,US,bank_transfer,reversed,0
+TXN0000819,CUST00134,ACC00175,2025-03-09T14:08:00,29.44,USD,purchase,fuel,Metro Petroleum,Chicago,US,credit_card,settled,0
+TXN0000259,CUST00222,ACC00198,2025-03-09T18:24:00,42.26,USD,purchase,restaurants,Harbor Cafe,Dallas,US,bank_transfer,settled,0
+TXN0000584,CUST00095,ACC00195,2025-03-09T19:29:00,262.62,USD,purchase,healthcare,Community Pharmacy,New York,US,digital_wallet,settled,0
+TXN0000249,CUST00142,ACC00244,2025-03-10T02:02:00,158.45,USD,purchase,restaurants,Harbor Cafe,New York,US,debit_card,pending,0
+TXN0000002,CUST00155,ACC00014,2025-03-10T05:26:00,23.61,USD,purchase,grocery,City Foods,New York,US,credit_card,reversed,0
+TXN0000544,CUST00010,ACC00296,2025-03-11T10:36:00,114.61,USD,purchase,travel,Skyway Airlines,Seattle,US,debit_card,settled,0
+TXN0000905,CUST00062,ACC00081,2025-03-11T13:34:00,32.82,USD,purchase,travel,Skyway Airlines,Atlanta,US,bank_transfer,settled,0
+TXN0000358,CUST00207,ACC00278,2025-03-12T10:00:00,20.31,USD,purchase,grocery,Green Grocer,Chicago,US,credit_card,settled,0
+TXN0000355,CUST00164,ACC00150,2025-03-12T14:58:00,26.6,USD,purchase,utilities,Power & Light,Chicago,US,digital_wallet,settled,0
+TXN0000735,CUST00106,ACC00180,2025-03-12T21:18:00,75.88,USD,purchase,healthcare,Community Pharmacy,Seattle,US,credit_card,settled,0
+TXN0000638,CUST00090,ACC00113,2025-03-13T03:24:00,29.18,USD,purchase,grocery,City Foods,Seattle,US,bank_transfer,pending,0
+TXN0000674,CUST00022,ACC00286,2025-03-13T08:39:00,18.7,USD,purchase,retail,Everyday Goods,Seattle,US,digital_wallet,settled,0
+TXN0000078,CUST00161,ACC00109,2025-03-14T06:13:00,20.11,USD,transfer,grocery,Green Grocer,Atlanta,US,debit_card,settled,0
+TXN0000838,CUST00037,ACC00094,2025-03-14T07:58:00,9.99,USD,purchase,restaurants,Northside Grill,New York,US,debit_card,settled,0
+TXN0000337,CUST00069,ACC00274,2025-03-14T21:58:00,11.88,USD,purchase,electronics,Digital Store,Chicago,US,debit_card,settled,0
+TXN0000476,CUST00202,ACC00174,2025-03-15T00:29:00,21.14,USD,purchase,utilities,NetConnect,Chicago,US,debit_card,pending,0
+TXN0000343,CUST00035,ACC00081,2025-03-15T13:39:00,34.64,USD,purchase,healthcare,Health Supplies,Seattle,US,digital_wallet,settled,0
+TXN0000864,CUST00014,ACC00151,2025-03-16T03:33:00,163.35,USD,purchase,retail,Urban Outfitters,New York,US,digital_wallet,reversed,0
+TXN0000148,CUST00183,ACC00044,2025-03-17T08:49:00,-7.24,USD,refund,grocery,City Foods,Seattle,US,credit_card,settled,0
+TXN0000808,CUST00205,ACC00235,2025-03-17T20:00:00,16.8,USD,purchase,fuel,QuickFuel,Chicago,US,debit_card,pending,0
+TXN0000272,CUST00030,ACC00073,2025-03-18T03:07:00,6.45,USD,purchase,grocery,Green Grocer,Seattle,US,bank_transfer,settled,0
+TXN0000984,CUST00045,ACC00270,2025-03-18T11:03:00,-25.85,USD,refund,electronics,Digital Store,Seattle,US,bank_transfer,settled,0
+TXN0000953,CUST00042,ACC00168,2025-03-18T19:12:00,7.76,USD,purchase,travel,Skyway Airlines,New York,US,bank_transfer,settled,0
+TXN0000105,CUST00092,ACC00295,2025-03-19T15:54:00,23.07,USD,purchase,retail,Urban Outfitters,Seattle,US,bank_transfer,reversed,0
+TXN0000247,CUST00039,ACC00124,2025-03-19T22:14:00,16.86,USD,transfer,retail,Everyday Goods,Chicago,US,bank_transfer,reversed,0
+TXN0000613,CUST00198,ACC00195,2025-03-21T04:27:00,35.87,USD,purchase,restaurants,Northside Grill,Atlanta,US,digital_wallet,reversed,0
+TXN0000583,CUST00042,ACC00345,2025-03-21T06:56:00,51.05,USD,purchase,restaurants,Northside Grill,New York,US,credit_card,settled,0
+TXN0000943,CUST00021,ACC00151,2025-03-21T12:19:00,51.95,USD,withdrawal,retail,Everyday Goods,Seattle,US,digital_wallet,settled,0
+TXN0000939,CUST00209,ACC00074,2025-03-21T13:42:00,34.6,USD,purchase,retail,Urban Outfitters,New York,US,credit_card,settled,0
+TXN0000982,CUST00017,ACC00169,2025-03-22T02:13:00,41.49,USD,purchase,restaurants,Pasta House,Atlanta,US,debit_card,pending,0
+TXN0000164,CUST00153,ACC00275,2025-03-22T17:22:00,11.93,USD,withdrawal,utilities,Power & Light,New York,US,credit_card,pending,0
+TXN0000679,CUST00159,ACC00021,2025-03-22T19:16:00,69.11,USD,purchase,healthcare,CarePlus Clinic,New York,US,bank_transfer,pending,0
+TXN0000630,CUST00190,ACC00078,2025-03-23T05:28:00,80.98,USD,purchase,fuel,Metro Petroleum,New York,US,digital_wallet,reversed,0
+TXN0000714,CUST00194,ACC00221,2025-03-23T08:29:00,40.41,USD,purchase,restaurants,Harbor Cafe,Seattle,US,credit_card,pending,0
+TXN0000720,CUST00032,ACC00239,2025-03-24T04:07:00,25.61,USD,purchase,electronics,TechHub,Seattle,US,credit_card,settled,0
+TXN0000285,CUST00199,ACC00279,2025-03-24T10:30:00,228.84,USD,purchase,utilities,City Water,Atlanta,US,debit_card,settled,0
+TXN0000434,CUST00186,ACC00145,2025-03-24T13:21:00,55.56,USD,purchase,healthcare,Community Pharmacy,Seattle,US,bank_transfer,reversed,0
+TXN0000403,CUST00070,ACC00198,2025-03-24T21:21:00,27.26,USD,purchase,healthcare,Health Supplies,Chicago,US,digital_wallet,pending,0
+TXN0000590,CUST00102,ACC00292,2025-03-24T21:26:00,11.52,USD,purchase,healthcare,Health Supplies,New York,US,debit_card,settled,0
+TXN0000278,CUST00136,ACC00328,2025-03-24T23:30:00,14.88,USD,purchase,electronics,Device World,Seattle,US,digital_wallet,pending,0
+TXN0000711,CUST00030,ACC00068,2025-03-24T23:42:00,33.48,USD,purchase,electronics,TechHub,Chicago,US,digital_wallet,settled,0
+TXN0000142,CUST00232,ACC00179,2025-03-25T00:45:00,100.2,USD,purchase,travel,Skyway Airlines,New York,US,credit_card,settled,0
+TXN0000655,CUST00057,ACC00033,2025-03-25T03:26:00,355.44,USD,purchase,restaurants,Harbor Cafe,New York,US,digital_wallet,reversed,0
+TXN0000062,CUST00247,ACC00160,2025-03-25T09:36:00,22.52,USD,purchase,travel,Metro Transit,Atlanta,US,debit_card,settled,0
+TXN0000445,CUST00219,ACC00028,2025-03-25T11:10:00,7.36,USD,purchase,fuel,Metro Petroleum,Chicago,US,digital_wallet,reversed,0
+TXN0000140,CUST00044,ACC00317,2025-03-25T20:48:00,7.92,USD,purchase,retail,Urban Outfitters,Dallas,US,bank_transfer,settled,0
+TXN0000314,CUST00001,ACC00023,2025-03-25T23:36:00,61.16,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,credit_card,reversed,0
+TXN0000956,CUST00023,ACC00175,2025-03-26T05:49:00,82.87,USD,purchase,electronics,Digital Store,Dallas,US,credit_card,settled,0
+TXN0000486,CUST00163,ACC00113,2025-03-26T15:56:00,6.54,USD,purchase,grocery,City Foods,Seattle,US,credit_card,pending,0
+TXN0000937,CUST00102,ACC00301,2025-03-27T00:00:00,9.76,USD,purchase,travel,Metro Transit,New York,US,credit_card,pending,0
+TXN0000973,CUST00178,ACC00093,2025-03-27T10:25:00,62.84,USD,purchase,restaurants,Harbor Cafe,Chicago,US,digital_wallet,reversed,0
+TXN0000468,CUST00231,ACC00309,2025-03-27T13:44:00,57.83,USD,purchase,grocery,City Foods,Atlanta,US,debit_card,settled,0
+TXN0000397,CUST00128,ACC00102,2025-03-27T17:33:00,4.89,USD,purchase,restaurants,Pasta House,Atlanta,US,credit_card,settled,0
+TXN0000472,CUST00168,ACC00106,2025-03-27T19:12:00,2.71,USD,purchase,grocery,City Foods,Atlanta,US,bank_transfer,pending,0
+TXN0000312,CUST00086,ACC00220,2025-03-27T23:11:00,81.35,USD,purchase,travel,Skyway Airlines,Dallas,US,debit_card,settled,0
+TXN0000652,CUST00118,ACC00348,2025-03-28T01:28:00,83.64,USD,purchase,grocery,City Foods,Seattle,US,credit_card,reversed,0
+TXN0000588,CUST00189,ACC00107,2025-03-28T01:49:00,11.59,USD,purchase,electronics,Digital Store,New York,US,digital_wallet,settled,0
+TXN0000461,CUST00208,ACC00170,2025-03-28T03:58:00,193.39,USD,purchase,healthcare,Health Supplies,Atlanta,US,debit_card,pending,0
+TXN0000878,CUST00204,ACC00098,2025-03-28T06:49:00,33.91,USD,purchase,retail,Everyday Goods,New York,US,digital_wallet,settled,0
+TXN0000888,CUST00140,ACC00103,2025-03-28T08:28:00,18.93,USD,purchase,electronics,Device World,New York,US,credit_card,settled,0
+TXN0000227,CUST00101,ACC00271,2025-03-28T09:15:00,28.91,USD,purchase,travel,Metro Transit,Dallas,US,credit_card,reversed,0
+TXN0000197,CUST00101,ACC00192,2025-03-28T12:22:00,11.2,USD,purchase,fuel,Roadside Gas,Atlanta,US,bank_transfer,settled,0
+TXN0000715,CUST00017,ACC00155,2025-03-28T14:18:00,26.11,USD,transfer,grocery,City Foods,Seattle,US,debit_card,settled,0
+TXN0000072,CUST00050,ACC00111,2025-03-29T01:22:00,126.22,USD,purchase,electronics,Digital Store,Dallas,US,digital_wallet,settled,0
+TXN0000656,CUST00140,ACC00071,2025-03-29T23:10:00,28.77,USD,transfer,retail,Urban Outfitters,Dallas,US,credit_card,reversed,0
+TXN0000916,CUST00092,ACC00166,2025-03-29T23:12:00,35.84,USD,purchase,retail,Everyday Goods,Seattle,US,debit_card,settled,0
+TXN0000828,CUST00011,ACC00268,2025-03-30T00:17:00,16.07,USD,purchase,retail,Everyday Goods,New York,US,debit_card,settled,0
+TXN0000207,CUST00098,ACC00203,2025-03-30T17:54:00,45.38,USD,purchase,fuel,Roadside Gas,Dallas,US,credit_card,reversed,0
+TXN0000331,CUST00013,ACC00087,2025-03-31T05:19:00,26.78,USD,purchase,restaurants,Pasta House,Dallas,US,digital_wallet,pending,0
+TXN0000954,CUST00163,ACC00252,2025-03-31T15:17:00,114.87,USD,purchase,fuel,QuickFuel,Seattle,US,bank_transfer,reversed,0
+TXN0000295,CUST00113,ACC00234,2025-04-01T11:12:00,38.75,USD,transfer,utilities,Power & Light,New York,US,digital_wallet,settled,0
+TXN0000159,CUST00070,ACC00231,2025-04-01T18:54:00,8.24,USD,purchase,restaurants,Pasta House,Atlanta,US,credit_card,settled,0
+TXN0000005,CUST00021,ACC00283,2025-04-01T21:29:00,21.45,USD,transfer,utilities,City Water,Atlanta,US,bank_transfer,pending,0
+TXN0000505,CUST00241,ACC00041,2025-04-02T01:13:00,14.14,USD,purchase,travel,Metro Transit,New York,US,credit_card,settled,0
+TXN0000867,CUST00091,ACC00216,2025-04-02T17:41:00,36.08,USD,purchase,electronics,Device World,Atlanta,US,digital_wallet,settled,0
+TXN0000061,CUST00145,ACC00112,2025-04-02T21:52:00,16.79,USD,purchase,travel,Skyway Airlines,Chicago,US,bank_transfer,settled,0
+TXN0000855,CUST00220,ACC00117,2025-04-03T19:00:00,112.22,USD,purchase,travel,Central Hotels,New York,US,bank_transfer,reversed,0
+TXN0000036,CUST00231,ACC00021,2025-04-03T19:16:00,8.0,USD,purchase,travel,Skyway Airlines,Seattle,US,credit_card,settled,0
+TXN0000152,CUST00024,ACC00331,2025-04-04T01:21:00,38.34,USD,purchase,retail,Home Essentials,Dallas,US,digital_wallet,reversed,0
+TXN0000713,CUST00177,ACC00117,2025-04-04T17:26:00,15.72,USD,withdrawal,restaurants,Northside Grill,Chicago,US,credit_card,settled,0
+TXN0000974,CUST00023,ACC00288,2025-04-04T19:13:00,14.12,USD,purchase,restaurants,Northside Grill,New York,US,debit_card,settled,0
+TXN0000182,CUST00017,ACC00159,2025-04-05T11:54:00,11.51,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,digital_wallet,settled,0
+TXN0000532,CUST00052,ACC00055,2025-04-05T11:58:00,5.15,USD,purchase,restaurants,Northside Grill,New York,US,credit_card,settled,0
+TXN0000640,CUST00206,ACC00095,2025-04-05T14:17:00,7.43,USD,purchase,restaurants,Harbor Cafe,New York,US,credit_card,reversed,0
+TXN0000785,CUST00214,ACC00189,2025-04-06T14:24:00,47.46,USD,purchase,retail,Home Essentials,Dallas,US,credit_card,settled,0
+TXN0000299,CUST00099,ACC00046,2025-04-07T05:55:00,61.12,USD,purchase,restaurants,Pasta House,Seattle,US,debit_card,settled,0
+TXN0000404,CUST00242,ACC00082,2025-04-07T11:48:00,28.42,USD,purchase,travel,Metro Transit,New York,US,digital_wallet,settled,0
+TXN0000298,CUST00175,ACC00228,2025-04-07T15:05:00,36.87,USD,purchase,utilities,Power & Light,New York,US,debit_card,reversed,0
+TXN0000598,CUST00118,ACC00199,2025-04-07T15:24:00,10.19,USD,purchase,travel,Central Hotels,New York,US,debit_card,settled,1
+TXN0000420,CUST00180,ACC00263,2025-04-08T02:50:00,29.01,USD,purchase,fuel,Roadside Gas,Seattle,US,bank_transfer,reversed,0
+TXN0000795,CUST00209,ACC00009,2025-04-09T09:17:00,9.2,USD,purchase,restaurants,Pasta House,Chicago,US,credit_card,settled,0
+TXN0000621,CUST00221,ACC00234,2025-04-09T20:51:00,12.3,USD,purchase,utilities,NetConnect,Seattle,US,digital_wallet,pending,0
+TXN0000300,CUST00165,ACC00347,2025-04-10T20:30:00,50.89,USD,purchase,healthcare,Community Pharmacy,Dallas,US,debit_card,settled,0
+TXN0000137,CUST00084,ACC00062,2025-04-10T22:21:00,12.39,USD,purchase,fuel,QuickFuel,Chicago,US,digital_wallet,settled,0
+TXN0000965,CUST00075,ACC00075,2025-04-11T04:03:00,24.79,USD,purchase,travel,Metro Transit,Atlanta,US,credit_card,pending,0
+TXN0000281,CUST00048,ACC00250,2025-04-11T09:24:00,30.37,USD,purchase,retail,Home Essentials,Atlanta,US,credit_card,pending,0
+TXN0000813,CUST00236,ACC00210,2025-04-11T11:37:00,-115.24,USD,refund,retail,Urban Outfitters,Chicago,US,bank_transfer,pending,0
+TXN0000563,CUST00221,ACC00071,2025-04-11T21:48:00,64.79,USD,purchase,travel,Skyway Airlines,Chicago,US,credit_card,settled,0
+TXN0000162,CUST00115,ACC00316,2025-04-12T01:34:00,59.57,USD,purchase,fuel,QuickFuel,Seattle,US,debit_card,pending,0
+TXN0000893,CUST00079,ACC00005,2025-04-12T04:19:00,78.78,USD,purchase,grocery,Green Grocer,Dallas,US,bank_transfer,settled,0
+TXN0000199,CUST00082,ACC00084,2025-04-12T18:50:00,28.74,USD,purchase,utilities,City Water,Chicago,US,bank_transfer,reversed,0
+TXN0000650,CUST00185,ACC00304,2025-04-12T21:40:00,54.39,USD,purchase,utilities,Power & Light,Chicago,US,digital_wallet,settled,0
+TXN0000302,CUST00187,ACC00197,2025-04-12T22:54:00,15.48,USD,purchase,restaurants,Northside Grill,New York,US,digital_wallet,reversed,0
+TXN0000231,CUST00060,ACC00295,2025-04-13T01:02:00,13.06,USD,purchase,electronics,Device World,New York,US,bank_transfer,settled,0
+TXN0000282,CUST00159,ACC00028,2025-04-13T03:51:00,52.57,USD,purchase,utilities,City Water,Dallas,US,debit_card,pending,0
+TXN0000443,CUST00147,ACC00306,2025-04-13T22:41:00,3.43,USD,purchase,grocery,Green Grocer,Atlanta,US,debit_card,settled,0
+TXN0000574,CUST00024,ACC00257,2025-04-14T13:49:00,21.78,USD,purchase,grocery,Fresh Market,Atlanta,US,credit_card,pending,0
+TXN0000840,CUST00067,ACC00193,2025-04-14T17:40:00,21.89,USD,purchase,restaurants,Harbor Cafe,Dallas,US,debit_card,settled,0
+TXN0000175,CUST00009,ACC00065,2025-04-14T23:15:00,35.76,USD,withdrawal,travel,Metro Transit,New York,US,credit_card,pending,0
+TXN0000724,CUST00027,ACC00087,2025-04-15T09:31:00,57.01,USD,purchase,restaurants,Harbor Cafe,New York,US,bank_transfer,reversed,0
+TXN0000190,CUST00188,ACC00177,2025-04-15T14:47:00,5.96,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,credit_card,settled,0
+TXN0000365,CUST00010,ACC00203,2025-04-15T18:00:00,54.06,USD,purchase,fuel,Roadside Gas,Seattle,US,credit_card,pending,0
+TXN0000796,CUST00216,ACC00321,2025-04-16T16:45:00,77.72,USD,purchase,electronics,Digital Store,Seattle,US,credit_card,pending,0
+TXN0000477,CUST00112,ACC00046,2025-04-16T19:47:00,48.26,USD,purchase,grocery,Fresh Market,New York,US,bank_transfer,reversed,0
+TXN0000261,CUST00071,ACC00216,2025-04-17T06:23:00,10.73,USD,purchase,fuel,Roadside Gas,Seattle,US,digital_wallet,pending,0
+TXN0000983,CUST00071,ACC00006,2025-04-17T13:17:00,10.31,USD,withdrawal,healthcare,Community Pharmacy,Dallas,US,digital_wallet,settled,0
+TXN0000817,CUST00165,ACC00106,2025-04-17T22:35:00,35.41,USD,purchase,grocery,City Foods,Dallas,US,digital_wallet,pending,0
+TXN0000360,CUST00045,ACC00086,2025-04-18T08:50:00,11.86,USD,purchase,grocery,Fresh Market,Atlanta,US,credit_card,pending,0
+TXN0000936,CUST00242,ACC00349,2025-04-18T16:27:00,16.41,USD,purchase,healthcare,Community Pharmacy,New York,US,bank_transfer,pending,0
+TXN0000548,CUST00122,ACC00293,2025-04-18T18:42:00,22.13,USD,purchase,fuel,Metro Petroleum,Seattle,US,debit_card,settled,0
+TXN0000688,CUST00245,ACC00086,2025-04-19T00:24:00,18.64,USD,purchase,fuel,Metro Petroleum,New York,US,credit_card,pending,0
+TXN0000645,CUST00239,ACC00020,2025-04-19T09:25:00,21.21,USD,purchase,grocery,City Foods,Seattle,US,digital_wallet,settled,0
+TXN0000663,CUST00128,ACC00091,2025-04-19T15:45:00,26.24,USD,purchase,electronics,TechHub,New York,US,debit_card,pending,0
+TXN0000222,CUST00114,ACC00060,2025-04-20T02:51:00,4.19,USD,purchase,electronics,Digital Store,Atlanta,US,credit_card,reversed,0
+TXN0000315,CUST00142,ACC00336,2025-04-20T06:55:00,100.03,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,credit_card,settled,0
+TXN0000578,CUST00046,ACC00027,2025-04-20T07:00:00,58.61,USD,purchase,travel,Skyway Airlines,Dallas,US,bank_transfer,settled,0
+TXN0000245,CUST00117,ACC00192,2025-04-20T23:26:00,8.16,USD,purchase,electronics,TechHub,New York,US,digital_wallet,reversed,0
+TXN0000096,CUST00033,ACC00258,2025-04-21T18:13:00,6.27,USD,purchase,retail,Home Essentials,Seattle,US,bank_transfer,settled,0
+TXN0000448,CUST00207,ACC00162,2025-04-21T23:17:00,10.59,USD,purchase,fuel,Roadside Gas,Atlanta,US,credit_card,settled,1
+TXN0000981,CUST00098,ACC00014,2025-04-22T18:27:00,59.49,USD,purchase,travel,Central Hotels,Seattle,US,credit_card,pending,0
+TXN0000895,CUST00146,ACC00323,2025-04-22T21:56:00,108.0,USD,transfer,grocery,City Foods,Chicago,US,digital_wallet,settled,0
+TXN0000430,CUST00014,ACC00321,2025-04-22T22:09:00,4.67,USD,transfer,travel,Central Hotels,New York,US,bank_transfer,reversed,0
+TXN0000437,CUST00010,ACC00045,2025-04-22T23:03:00,138.19,USD,purchase,retail,Everyday Goods,New York,US,debit_card,settled,0
+TXN0000531,CUST00105,ACC00329,2025-04-23T05:38:00,51.35,USD,purchase,utilities,City Water,Atlanta,US,debit_card,settled,0
+TXN0000620,CUST00035,ACC00006,2025-04-23T08:00:00,33.92,USD,purchase,healthcare,Community Pharmacy,Seattle,US,debit_card,settled,0
+TXN0000987,CUST00097,ACC00291,2025-04-24T05:24:00,121.92,USD,purchase,fuel,Metro Petroleum,New York,US,bank_transfer,settled,0
+TXN0000134,CUST00013,ACC00346,2025-04-24T06:57:00,43.54,USD,purchase,restaurants,Harbor Cafe,New York,US,bank_transfer,reversed,0
+TXN0000998,CUST00058,ACC00241,2025-04-24T07:50:00,51.46,USD,purchase,utilities,City Water,New York,US,bank_transfer,settled,0
+TXN0000884,CUST00066,ACC00282,2025-04-25T11:25:00,77.03,USD,transfer,retail,Everyday Goods,Atlanta,US,credit_card,settled,0
+TXN0000601,CUST00246,ACC00319,2025-04-25T16:26:00,57.8,USD,purchase,fuel,Metro Petroleum,Chicago,US,debit_card,settled,0
+TXN0000761,CUST00217,ACC00305,2025-04-25T22:08:00,15.25,USD,purchase,restaurants,Pasta House,New York,US,digital_wallet,settled,0
+TXN0000564,CUST00137,ACC00061,2025-04-26T02:05:00,19.57,USD,purchase,travel,Metro Transit,Atlanta,US,bank_transfer,reversed,0
+TXN0000149,CUST00100,ACC00210,2025-04-26T14:17:00,45.69,USD,purchase,utilities,City Water,Seattle,US,debit_card,settled,0
+TXN0000296,CUST00024,ACC00336,2025-04-26T18:19:00,13.56,USD,withdrawal,travel,Skyway Airlines,Dallas,US,bank_transfer,settled,0
+TXN0000455,CUST00169,ACC00075,2025-04-26T22:36:00,15.95,USD,purchase,travel,Central Hotels,Seattle,US,digital_wallet,reversed,0
+TXN0000086,CUST00074,ACC00340,2025-04-28T02:37:00,16.42,USD,purchase,healthcare,CarePlus Clinic,New York,US,debit_card,pending,0
+TXN0000185,CUST00089,ACC00266,2025-04-28T22:34:00,21.68,USD,purchase,fuel,Roadside Gas,Chicago,US,debit_card,settled,0
+TXN0000934,CUST00246,ACC00131,2025-04-29T05:29:00,3.01,USD,purchase,restaurants,Pasta House,Seattle,US,bank_transfer,pending,0
+TXN0000215,CUST00184,ACC00096,2025-04-29T07:47:00,19.78,USD,purchase,restaurants,Harbor Cafe,Dallas,US,bank_transfer,settled,0
+TXN0000373,CUST00220,ACC00114,2025-04-29T15:00:00,115.72,USD,withdrawal,retail,Home Essentials,New York,US,credit_card,settled,0
+TXN0000707,CUST00108,ACC00326,2025-04-29T22:01:00,7.54,USD,purchase,travel,Skyway Airlines,Dallas,US,debit_card,settled,0
+TXN0000979,CUST00242,ACC00131,2025-04-29T22:12:00,5.56,USD,purchase,fuel,Metro Petroleum,Seattle,US,digital_wallet,settled,0
+TXN0000301,CUST00161,ACC00078,2025-04-30T12:08:00,11.83,USD,purchase,grocery,Green Grocer,Atlanta,US,digital_wallet,settled,0
+TXN0000684,CUST00128,ACC00078,2025-04-30T23:29:00,44.23,USD,purchase,restaurants,Harbor Cafe,New York,US,debit_card,settled,0
+TXN0000017,CUST00109,ACC00109,2025-05-01T05:48:00,9.85,USD,purchase,utilities,NetConnect,Atlanta,US,credit_card,reversed,0
+TXN0000460,CUST00165,ACC00144,2025-05-01T14:10:00,8.18,USD,purchase,travel,Metro Transit,Seattle,US,credit_card,reversed,0
+TXN0000349,CUST00226,ACC00194,2025-05-02T02:58:00,13.22,USD,withdrawal,utilities,City Water,Seattle,US,digital_wallet,pending,0
+TXN0000915,CUST00028,ACC00168,2025-05-02T15:21:00,24.65,USD,purchase,restaurants,Northside Grill,Chicago,US,credit_card,reversed,0
+TXN0000289,CUST00075,ACC00294,2025-05-03T14:36:00,35.91,USD,purchase,fuel,Roadside Gas,Atlanta,US,debit_card,settled,0
+TXN0000480,CUST00062,ACC00336,2025-05-04T09:55:00,83.06,USD,purchase,electronics,TechHub,Atlanta,US,credit_card,settled,0
+TXN0000556,CUST00203,ACC00317,2025-05-05T00:33:00,17.96,USD,purchase,grocery,Green Grocer,Dallas,US,debit_card,settled,0
+TXN0000465,CUST00154,ACC00074,2025-05-05T04:52:00,24.23,USD,purchase,utilities,NetConnect,Seattle,US,credit_card,pending,0
+TXN0000941,CUST00181,ACC00069,2025-05-05T06:02:00,7.54,USD,purchase,fuel,QuickFuel,Seattle,US,digital_wallet,settled,0
+TXN0000670,CUST00227,ACC00152,2025-05-05T15:57:00,80.76,USD,purchase,utilities,NetConnect,Seattle,US,credit_card,settled,0
+TXN0000897,CUST00046,ACC00017,2025-05-05T19:50:00,22.94,USD,purchase,fuel,Metro Petroleum,New York,US,digital_wallet,reversed,0
+TXN0000654,CUST00211,ACC00050,2025-05-06T10:16:00,8.97,USD,purchase,travel,Skyway Airlines,New York,US,credit_card,settled,0
+TXN0000458,CUST00094,ACC00301,2025-05-07T14:14:00,9.63,USD,purchase,fuel,Metro Petroleum,Dallas,US,debit_card,pending,0
+TXN0000344,CUST00178,ACC00315,2025-05-07T20:24:00,16.33,USD,purchase,utilities,City Water,Dallas,US,credit_card,reversed,0
+TXN0000701,CUST00194,ACC00071,2025-05-08T08:28:00,16.08,USD,purchase,fuel,QuickFuel,Seattle,US,credit_card,reversed,0
+TXN0000904,CUST00231,ACC00317,2025-05-08T12:33:00,97.36,USD,purchase,fuel,Metro Petroleum,Seattle,US,digital_wallet,settled,0
+TXN0000689,CUST00042,ACC00122,2025-05-08T16:37:00,55.2,USD,withdrawal,fuel,QuickFuel,Chicago,US,debit_card,settled,0
+TXN0000509,CUST00162,ACC00326,2025-05-09T21:56:00,28.46,USD,purchase,travel,Central Hotels,Atlanta,US,digital_wallet,pending,0
+TXN0000851,CUST00032,ACC00237,2025-05-10T00:33:00,14.54,USD,withdrawal,healthcare,CarePlus Clinic,Seattle,US,credit_card,settled,0
+TXN0000488,CUST00056,ACC00294,2025-05-10T23:15:00,9.19,USD,purchase,healthcare,CarePlus Clinic,New York,US,credit_card,settled,0
+TXN0000014,CUST00223,ACC00321,2025-05-11T02:10:00,4.0,USD,purchase,fuel,Roadside Gas,Atlanta,US,credit_card,settled,0
+TXN0000962,CUST00077,ACC00338,2025-05-11T08:36:00,102.43,USD,withdrawal,electronics,TechHub,New York,US,debit_card,pending,0
+TXN0000723,CUST00173,ACC00054,2025-05-11T13:26:00,7.04,USD,purchase,utilities,City Water,Dallas,US,digital_wallet,pending,0
+TXN0000704,CUST00008,ACC00062,2025-05-11T14:45:00,6.63,USD,purchase,fuel,Roadside Gas,Seattle,US,digital_wallet,settled,0
+TXN0000266,CUST00007,ACC00237,2025-05-12T00:27:00,7.79,USD,purchase,electronics,Digital Store,Atlanta,US,credit_card,reversed,0
+TXN0000579,CUST00246,ACC00104,2025-05-12T13:53:00,6.18,USD,purchase,utilities,Power & Light,Dallas,US,bank_transfer,settled,1
+TXN0000971,CUST00077,ACC00293,2025-05-12T20:53:00,30.82,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,debit_card,pending,0
+TXN0000132,CUST00169,ACC00206,2025-05-13T02:17:00,29.04,USD,withdrawal,healthcare,Community Pharmacy,New York,US,credit_card,reversed,0
+TXN0000058,CUST00084,ACC00109,2025-05-13T07:56:00,19.9,USD,purchase,travel,Skyway Airlines,Seattle,US,bank_transfer,pending,0
+TXN0000184,CUST00111,ACC00258,2025-05-13T12:02:00,43.92,USD,purchase,healthcare,Community Pharmacy,Chicago,US,debit_card,settled,0
+TXN0000791,CUST00022,ACC00214,2025-05-13T16:19:00,41.66,USD,withdrawal,utilities,NetConnect,Chicago,US,bank_transfer,settled,0
+TXN0000760,CUST00001,ACC00206,2025-05-14T19:04:00,54.62,USD,purchase,grocery,Fresh Market,New York,US,bank_transfer,settled,0
+TXN0000568,CUST00122,ACC00071,2025-05-14T23:13:00,9.89,USD,withdrawal,utilities,Power & Light,Dallas,US,credit_card,pending,0
+TXN0000719,CUST00047,ACC00182,2025-05-15T19:18:00,18.85,USD,purchase,utilities,City Water,Dallas,US,digital_wallet,settled,0
+TXN0000178,CUST00234,ACC00288,2025-05-16T11:25:00,115.99,USD,purchase,restaurants,Harbor Cafe,New York,US,bank_transfer,pending,0
+TXN0000357,CUST00113,ACC00239,2025-05-16T20:46:00,26.62,USD,purchase,retail,Urban Outfitters,Dallas,US,credit_card,settled,0
+TXN0000566,CUST00007,ACC00314,2025-05-17T20:22:00,18.03,USD,purchase,fuel,Metro Petroleum,Chicago,US,bank_transfer,settled,0
+TXN0000515,CUST00035,ACC00149,2025-05-17T21:32:00,15.23,USD,withdrawal,fuel,QuickFuel,Seattle,US,digital_wallet,settled,0
+TXN0000683,CUST00023,ACC00042,2025-05-18T03:43:00,16.05,USD,withdrawal,healthcare,CarePlus Clinic,New York,US,credit_card,pending,0
+TXN0000835,CUST00230,ACC00010,2025-05-18T21:55:00,26.19,USD,purchase,grocery,Fresh Market,Atlanta,US,credit_card,reversed,0
+TXN0000021,CUST00091,ACC00217,2025-05-19T15:39:00,117.41,USD,purchase,utilities,City Water,Seattle,US,digital_wallet,pending,0
+TXN0000092,CUST00192,ACC00070,2025-05-19T19:09:00,71.42,USD,transfer,travel,Metro Transit,Seattle,US,bank_transfer,reversed,0
+TXN0000649,CUST00230,ACC00055,2025-05-20T02:01:00,21.52,USD,purchase,grocery,City Foods,Seattle,US,bank_transfer,pending,0
+TXN0000708,CUST00196,ACC00049,2025-05-22T03:09:00,156.77,USD,purchase,restaurants,Pasta House,Atlanta,US,credit_card,settled,0
+TXN0000073,CUST00046,ACC00155,2025-05-22T08:27:00,26.16,USD,purchase,fuel,QuickFuel,New York,US,credit_card,settled,0
+TXN0000483,CUST00148,ACC00003,2025-05-22T15:34:00,5.44,USD,purchase,fuel,Roadside Gas,Chicago,US,credit_card,pending,0
+TXN0000196,CUST00019,ACC00198,2025-05-22T17:50:00,39.86,USD,purchase,grocery,City Foods,Atlanta,US,digital_wallet,settled,0
+TXN0000637,CUST00081,ACC00281,2025-05-22T22:34:00,61.75,USD,purchase,electronics,TechHub,Atlanta,US,debit_card,settled,0
+TXN0000932,CUST00002,ACC00007,2025-05-23T12:22:00,177.89,USD,purchase,travel,Central Hotels,Seattle,US,bank_transfer,settled,0
+TXN0000876,CUST00234,ACC00052,2025-05-23T17:07:00,163.13,USD,purchase,electronics,TechHub,Chicago,US,credit_card,settled,0
+TXN0000451,CUST00187,ACC00039,2025-05-24T00:53:00,25.47,USD,purchase,travel,Metro Transit,Atlanta,US,debit_card,settled,0
+TXN0000043,CUST00243,ACC00341,2025-05-24T11:26:00,24.15,USD,purchase,retail,Urban Outfitters,New York,US,bank_transfer,settled,0
+TXN0000143,CUST00195,ACC00336,2025-05-24T15:34:00,5.43,USD,purchase,travel,Metro Transit,Dallas,US,credit_card,settled,0
+TXN0000605,CUST00021,ACC00239,2025-05-25T06:52:00,40.99,USD,purchase,fuel,Metro Petroleum,Dallas,US,credit_card,reversed,0
+TXN0000063,CUST00027,ACC00155,2025-05-25T10:03:00,8.97,USD,purchase,retail,Home Essentials,Seattle,US,debit_card,settled,0
+TXN0000666,CUST00059,ACC00057,2025-05-25T17:25:00,30.16,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,credit_card,settled,0
+TXN0000501,CUST00045,ACC00146,2025-05-25T21:02:00,68.46,USD,purchase,restaurants,Northside Grill,Dallas,US,bank_transfer,reversed,0
+TXN0000489,CUST00224,ACC00136,2025-05-26T09:25:00,146.52,USD,purchase,electronics,TechHub,Seattle,US,credit_card,settled,0
+TXN0000158,CUST00224,ACC00129,2025-05-26T09:58:00,-43.55,USD,refund,retail,Everyday Goods,Chicago,US,digital_wallet,settled,0
+TXN0000745,CUST00062,ACC00078,2025-05-27T02:34:00,45.5,USD,purchase,grocery,City Foods,Atlanta,US,bank_transfer,settled,0
+TXN0000318,CUST00190,ACC00319,2025-05-27T02:58:00,19.88,USD,purchase,grocery,Fresh Market,Dallas,US,digital_wallet,settled,0
+TXN0000109,CUST00225,ACC00188,2025-05-27T05:08:00,35.08,USD,purchase,retail,Home Essentials,Chicago,US,bank_transfer,reversed,0
+TXN0000467,CUST00176,ACC00215,2025-05-28T08:17:00,50.11,USD,purchase,restaurants,Harbor Cafe,New York,US,debit_card,reversed,0
+TXN0000309,CUST00138,ACC00168,2025-05-28T23:08:00,46.86,USD,transfer,restaurants,Northside Grill,Atlanta,US,debit_card,settled,0
+TXN0000980,CUST00163,ACC00331,2025-05-29T09:00:00,58.0,USD,purchase,travel,Metro Transit,Atlanta,US,bank_transfer,settled,0
+TXN0000680,CUST00062,ACC00277,2025-05-30T01:36:00,96.69,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,digital_wallet,settled,0
+TXN0000716,CUST00048,ACC00344,2025-05-30T13:38:00,81.72,USD,purchase,restaurants,Northside Grill,Atlanta,US,debit_card,settled,0
+TXN0000304,CUST00049,ACC00201,2025-05-30T14:25:00,49.92,USD,purchase,grocery,Green Grocer,Dallas,US,debit_card,reversed,0
+TXN0000678,CUST00159,ACC00172,2025-05-31T20:08:00,-156.38,USD,refund,fuel,Metro Petroleum,Atlanta,US,debit_card,settled,0
+TXN0000252,CUST00238,ACC00040,2025-05-31T20:21:00,67.89,USD,purchase,healthcare,CarePlus Clinic,New York,US,credit_card,pending,0
+TXN0000804,CUST00171,ACC00248,2025-05-31T21:13:00,17.08,USD,purchase,travel,Metro Transit,Atlanta,US,credit_card,settled,0
+TXN0000204,CUST00135,ACC00193,2025-05-31T23:33:00,77.77,USD,purchase,grocery,Green Grocer,Chicago,US,credit_card,pending,0
+TXN0000521,CUST00240,ACC00166,2025-06-01T18:52:00,5.11,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,debit_card,settled,0
+TXN0000664,CUST00158,ACC00233,2025-06-02T14:50:00,15.75,USD,purchase,healthcare,Community Pharmacy,Dallas,US,debit_card,settled,0
+TXN0000421,CUST00176,ACC00177,2025-06-02T16:59:00,212.88,USD,purchase,electronics,Digital Store,Chicago,US,credit_card,settled,0
+TXN0000742,CUST00167,ACC00155,2025-06-02T17:27:00,7.54,USD,purchase,utilities,NetConnect,Seattle,US,bank_transfer,settled,0
+TXN0000977,CUST00061,ACC00019,2025-06-02T19:12:00,17.25,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,credit_card,settled,0
+TXN0000877,CUST00095,ACC00191,2025-06-03T02:09:00,16.16,USD,purchase,restaurants,Pasta House,Dallas,US,credit_card,settled,0
+TXN0000757,CUST00235,ACC00225,2025-06-03T04:46:00,44.4,USD,withdrawal,electronics,Digital Store,Dallas,US,bank_transfer,settled,0
+TXN0000848,CUST00085,ACC00009,2025-06-03T08:55:00,315.86,USD,purchase,healthcare,Health Supplies,Dallas,US,credit_card,reversed,0
+TXN0000462,CUST00006,ACC00125,2025-06-03T10:19:00,28.09,USD,purchase,utilities,Power & Light,Seattle,US,credit_card,pending,0
+TXN0000494,CUST00084,ACC00186,2025-06-03T11:09:00,11.46,USD,purchase,grocery,City Foods,New York,US,bank_transfer,settled,0
+TXN0000436,CUST00222,ACC00218,2025-06-03T11:40:00,29.2,USD,purchase,grocery,Fresh Market,New York,US,credit_card,settled,0
+TXN0000619,CUST00036,ACC00097,2025-06-03T19:16:00,43.86,USD,purchase,retail,Home Essentials,Atlanta,US,digital_wallet,pending,0
+TXN0000589,CUST00177,ACC00145,2025-06-04T14:52:00,62.2,USD,purchase,healthcare,CarePlus Clinic,Dallas,US,debit_card,settled,0
+TXN0000942,CUST00192,ACC00094,2025-06-04T18:59:00,64.87,USD,purchase,restaurants,Harbor Cafe,Seattle,US,bank_transfer,settled,0
+TXN0000452,CUST00067,ACC00279,2025-06-04T22:15:00,70.47,USD,transfer,retail,Home Essentials,Atlanta,US,digital_wallet,reversed,0
+TXN0000873,CUST00207,ACC00193,2025-06-05T04:51:00,6.83,USD,purchase,utilities,Power & Light,Atlanta,US,digital_wallet,settled,0
+TXN0000133,CUST00088,ACC00081,2025-06-06T15:43:00,9.37,USD,purchase,grocery,Green Grocer,New York,US,bank_transfer,pending,0
+TXN0000767,CUST00187,ACC00347,2025-06-06T23:17:00,26.18,USD,transfer,retail,Everyday Goods,Chicago,US,digital_wallet,settled,0
+TXN0000830,CUST00001,ACC00063,2025-06-06T23:33:00,20.45,USD,purchase,fuel,Metro Petroleum,Dallas,US,bank_transfer,pending,0
+TXN0000119,CUST00085,ACC00076,2025-06-07T06:01:00,-85.01,USD,refund,electronics,Digital Store,Atlanta,US,debit_card,settled,0
+TXN0000978,CUST00033,ACC00319,2025-06-07T07:34:00,2.4,USD,purchase,electronics,Device World,Chicago,US,debit_card,settled,0
+TXN0000912,CUST00215,ACC00326,2025-06-07T09:47:00,33.76,USD,purchase,electronics,Digital Store,New York,US,debit_card,settled,0
+TXN0000718,CUST00044,ACC00276,2025-06-08T00:18:00,31.51,USD,purchase,grocery,Fresh Market,Atlanta,US,debit_card,settled,0
+TXN0000614,CUST00232,ACC00326,2025-06-08T11:02:00,-8.8,USD,refund,grocery,Fresh Market,New York,US,credit_card,reversed,0
+TXN0000752,CUST00055,ACC00141,2025-06-08T17:58:00,7.02,USD,purchase,electronics,Device World,Seattle,US,digital_wallet,settled,0
+TXN0000286,CUST00189,ACC00335,2025-06-09T03:17:00,3.85,USD,transfer,utilities,Power & Light,Atlanta,US,bank_transfer,settled,0
+TXN0000019,CUST00059,ACC00035,2025-06-10T08:34:00,10.94,USD,purchase,electronics,TechHub,Atlanta,US,bank_transfer,settled,0
+TXN0000271,CUST00119,ACC00348,2025-06-10T22:48:00,114.58,USD,purchase,electronics,Digital Store,Atlanta,US,credit_card,pending,0
+TXN0000232,CUST00016,ACC00286,2025-06-10T23:00:00,33.66,USD,purchase,travel,Central Hotels,Atlanta,US,credit_card,settled,0
+TXN0000241,CUST00067,ACC00284,2025-06-11T03:02:00,12.27,USD,purchase,grocery,City Foods,Atlanta,US,digital_wallet,settled,0
+TXN0000113,CUST00233,ACC00155,2025-06-11T04:40:00,28.8,USD,purchase,healthcare,Health Supplies,Atlanta,US,digital_wallet,pending,0
+TXN0000492,CUST00014,ACC00270,2025-06-11T17:21:00,119.1,USD,purchase,fuel,Roadside Gas,Seattle,US,digital_wallet,settled,0
+TXN0000410,CUST00104,ACC00121,2025-06-12T04:04:00,45.35,USD,purchase,fuel,QuickFuel,New York,US,digital_wallet,pending,0
+TXN0000383,CUST00108,ACC00170,2025-06-12T14:56:00,3.24,USD,purchase,electronics,Device World,Dallas,US,bank_transfer,settled,0
+TXN0000407,CUST00133,ACC00268,2025-06-13T02:25:00,9.32,USD,transfer,grocery,City Foods,Atlanta,US,debit_card,settled,0
+TXN0000181,CUST00203,ACC00072,2025-06-13T06:54:00,50.69,USD,purchase,travel,Metro Transit,Dallas,US,digital_wallet,settled,0
+TXN0000425,CUST00100,ACC00122,2025-06-13T08:03:00,51.7,USD,purchase,utilities,NetConnect,New York,US,bank_transfer,reversed,0
+TXN0000161,CUST00215,ACC00333,2025-06-13T12:05:00,10.23,USD,purchase,restaurants,Northside Grill,Dallas,US,credit_card,settled,0
+TXN0000993,CUST00215,ACC00069,2025-06-13T21:21:00,21.18,USD,purchase,travel,Central Hotels,Atlanta,US,bank_transfer,settled,0
+TXN0000350,CUST00205,ACC00018,2025-06-14T06:20:00,21.9,USD,purchase,utilities,City Water,Atlanta,US,debit_card,settled,0
+TXN0000077,CUST00116,ACC00227,2025-06-14T08:10:00,29.58,USD,purchase,retail,Urban Outfitters,Atlanta,US,digital_wallet,pending,0
+TXN0000722,CUST00219,ACC00220,2025-06-14T11:25:00,4.9,USD,purchase,fuel,QuickFuel,Seattle,US,debit_card,settled,0
+TXN0000807,CUST00125,ACC00133,2025-06-15T01:41:00,33.86,USD,purchase,restaurants,Northside Grill,Atlanta,US,bank_transfer,settled,0
+TXN0000562,CUST00040,ACC00219,2025-06-15T14:35:00,216.03,USD,purchase,retail,Urban Outfitters,Atlanta,US,bank_transfer,reversed,0
+TXN0000891,CUST00122,ACC00120,2025-06-15T17:13:00,61.59,USD,purchase,travel,Central Hotels,Seattle,US,digital_wallet,settled,0
+TXN0000006,CUST00219,ACC00120,2025-06-15T22:48:00,21.45,USD,purchase,restaurants,Harbor Cafe,New York,US,digital_wallet,settled,0
+TXN0000764,CUST00051,ACC00135,2025-06-16T12:56:00,24.63,USD,transfer,grocery,City Foods,Atlanta,US,credit_card,pending,0
+TXN0000989,CUST00243,ACC00157,2025-06-16T13:56:00,21.74,USD,purchase,retail,Urban Outfitters,Atlanta,US,bank_transfer,settled,0
+TXN0000671,CUST00126,ACC00111,2025-06-17T06:20:00,94.26,USD,purchase,travel,Central Hotels,Atlanta,US,digital_wallet,reversed,0
+TXN0000776,CUST00067,ACC00084,2025-06-17T09:06:00,5.64,USD,purchase,travel,Central Hotels,New York,US,digital_wallet,pending,0
+TXN0000242,CUST00128,ACC00282,2025-06-17T11:52:00,24.17,USD,purchase,electronics,Digital Store,Dallas,US,bank_transfer,settled,0
+TXN0000567,CUST00092,ACC00041,2025-06-19T01:41:00,3.53,USD,purchase,electronics,Digital Store,Atlanta,US,digital_wallet,settled,0
+TXN0000212,CUST00234,ACC00090,2025-06-19T02:20:00,84.4,USD,purchase,restaurants,Northside Grill,Atlanta,US,credit_card,settled,0
+TXN0000634,CUST00122,ACC00135,2025-06-20T03:31:00,17.69,USD,purchase,utilities,Power & Light,Atlanta,US,digital_wallet,pending,1
+TXN0000842,CUST00069,ACC00284,2025-06-20T04:54:00,53.24,USD,transfer,grocery,City Foods,Seattle,US,debit_card,settled,0
+TXN0000822,CUST00171,ACC00294,2025-06-20T06:36:00,110.98,USD,purchase,electronics,Digital Store,Atlanta,US,credit_card,settled,0
+TXN0000631,CUST00221,ACC00017,2025-06-21T23:49:00,4.99,USD,purchase,travel,Skyway Airlines,Dallas,US,debit_card,reversed,0
+TXN0000024,CUST00124,ACC00110,2025-06-22T03:01:00,6.52,USD,purchase,grocery,Green Grocer,New York,US,debit_card,pending,0
+TXN0000747,CUST00008,ACC00126,2025-06-23T15:47:00,32.68,USD,purchase,electronics,Device World,Seattle,US,digital_wallet,settled,0
+TXN0000029,CUST00172,ACC00331,2025-06-23T19:20:00,14.87,USD,purchase,electronics,Device World,Dallas,US,digital_wallet,settled,0
+TXN0000239,CUST00098,ACC00239,2025-06-24T06:36:00,13.99,USD,purchase,electronics,Digital Store,Seattle,US,bank_transfer,settled,0
+TXN0000990,CUST00148,ACC00030,2025-06-24T18:56:00,27.85,USD,transfer,restaurants,Harbor Cafe,New York,US,bank_transfer,settled,0
+TXN0000539,CUST00097,ACC00282,2025-06-25T06:55:00,74.17,USD,purchase,retail,Home Essentials,Dallas,US,bank_transfer,settled,0
+TXN0000069,CUST00143,ACC00124,2025-06-25T18:00:00,38.92,USD,purchase,electronics,Digital Store,New York,US,digital_wallet,pending,0
+TXN0000191,CUST00116,ACC00127,2025-06-26T00:40:00,17.35,USD,purchase,restaurants,Harbor Cafe,Dallas,US,debit_card,settled,0
+TXN0000265,CUST00210,ACC00202,2025-06-26T12:40:00,21.06,USD,purchase,fuel,Roadside Gas,Seattle,US,debit_card,settled,0
+TXN0000260,CUST00176,ACC00195,2025-06-26T18:13:00,58.83,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,credit_card,settled,0
+TXN0000610,CUST00099,ACC00034,2025-06-27T10:48:00,121.03,USD,purchase,retail,Urban Outfitters,Chicago,US,credit_card,pending,0
+TXN0000008,CUST00070,ACC00328,2025-06-28T06:22:00,58.41,USD,purchase,travel,Central Hotels,Atlanta,US,credit_card,pending,0
+TXN0000968,CUST00102,ACC00251,2025-06-28T09:42:00,164.18,USD,purchase,travel,Skyway Airlines,Seattle,US,credit_card,settled,0
+TXN0000319,CUST00007,ACC00120,2025-06-28T11:54:00,37.49,USD,purchase,utilities,NetConnect,Chicago,US,bank_transfer,pending,0
+TXN0000836,CUST00114,ACC00044,2025-06-28T14:41:00,-34.27,USD,refund,fuel,Metro Petroleum,Chicago,US,bank_transfer,reversed,0
+TXN0000550,CUST00199,ACC00221,2025-06-29T07:27:00,14.82,USD,purchase,electronics,Device World,Atlanta,US,debit_card,settled,0
+TXN0000262,CUST00153,ACC00316,2025-06-29T13:28:00,25.55,USD,purchase,healthcare,Community Pharmacy,Dallas,US,digital_wallet,pending,0
+TXN0000861,CUST00246,ACC00175,2025-06-29T23:19:00,33.21,USD,purchase,healthcare,Community Pharmacy,Dallas,US,bank_transfer,settled,0
+TXN0000928,CUST00115,ACC00326,2025-07-01T07:03:00,39.54,USD,purchase,travel,Metro Transit,Atlanta,US,bank_transfer,reversed,0
+TXN0000050,CUST00117,ACC00069,2025-07-01T11:03:00,4.65,USD,transfer,utilities,City Water,New York,US,bank_transfer,settled,0
+TXN0000370,CUST00236,ACC00185,2025-07-01T16:09:00,12.52,USD,purchase,electronics,Digital Store,New York,US,credit_card,settled,0
+TXN0000348,CUST00066,ACC00056,2025-07-01T17:02:00,6.64,USD,purchase,fuel,Metro Petroleum,Chicago,US,debit_card,settled,0
+TXN0000083,CUST00247,ACC00346,2025-07-02T07:29:00,118.85,USD,purchase,retail,Home Essentials,Dallas,US,debit_card,settled,0
+TXN0000424,CUST00177,ACC00152,2025-07-02T10:52:00,71.63,USD,purchase,travel,Metro Transit,Dallas,US,debit_card,settled,0
+TXN0000120,CUST00170,ACC00014,2025-07-02T12:29:00,-57.51,USD,refund,travel,Metro Transit,Chicago,US,debit_card,settled,0
+TXN0000727,CUST00161,ACC00069,2025-07-02T13:07:00,27.62,USD,purchase,restaurants,Harbor Cafe,New York,US,debit_card,settled,0
+TXN0000845,CUST00090,ACC00324,2025-07-02T16:36:00,32.02,USD,withdrawal,utilities,Power & Light,Dallas,US,bank_transfer,pending,0
+TXN0000376,CUST00174,ACC00267,2025-07-03T11:59:00,12.59,USD,purchase,healthcare,Health Supplies,Seattle,US,digital_wallet,settled,0
+TXN0000375,CUST00183,ACC00330,2025-07-03T18:50:00,233.5,USD,purchase,grocery,Green Grocer,Chicago,US,digital_wallet,settled,0
+TXN0000938,CUST00248,ACC00273,2025-07-04T03:14:00,55.06,USD,purchase,travel,Central Hotels,Seattle,US,digital_wallet,reversed,0
+TXN0000856,CUST00001,ACC00219,2025-07-04T04:06:00,15.32,USD,purchase,grocery,City Foods,Atlanta,US,debit_card,pending,0
+TXN0000755,CUST00164,ACC00186,2025-07-04T05:11:00,10.49,USD,purchase,grocery,City Foods,Chicago,US,debit_card,settled,0
+TXN0000790,CUST00021,ACC00258,2025-07-04T12:08:00,5.15,USD,purchase,utilities,Power & Light,Atlanta,US,debit_card,reversed,0
+TXN0000103,CUST00231,ACC00148,2025-07-05T22:09:00,19.25,USD,purchase,fuel,Metro Petroleum,Seattle,US,credit_card,pending,0
+TXN0000400,CUST00076,ACC00136,2025-07-06T08:02:00,93.49,USD,purchase,restaurants,Northside Grill,New York,US,debit_card,pending,0
+TXN0000533,CUST00156,ACC00037,2025-07-06T08:51:00,25.38,USD,purchase,retail,Everyday Goods,Seattle,US,credit_card,settled,0
+TXN0000770,CUST00016,ACC00027,2025-07-06T13:52:00,166.08,USD,purchase,retail,Urban Outfitters,Atlanta,US,credit_card,reversed,0
+TXN0000068,CUST00180,ACC00142,2025-07-08T03:02:00,73.96,USD,purchase,electronics,Digital Store,Dallas,US,debit_card,reversed,0
+TXN0000382,CUST00196,ACC00094,2025-07-08T08:16:00,14.89,USD,purchase,utilities,NetConnect,Chicago,US,bank_transfer,reversed,0
+TXN0000330,CUST00006,ACC00034,2025-07-08T11:13:00,50.82,USD,transfer,restaurants,Harbor Cafe,Atlanta,US,digital_wallet,settled,0
+TXN0000644,CUST00019,ACC00293,2025-07-08T14:17:00,6.03,USD,purchase,restaurants,Pasta House,Seattle,US,bank_transfer,settled,0
+TXN0000765,CUST00044,ACC00291,2025-07-09T10:35:00,85.56,USD,purchase,retail,Everyday Goods,Atlanta,US,debit_card,settled,0
+TXN0000690,CUST00144,ACC00018,2025-07-09T14:56:00,42.28,USD,purchase,travel,Central Hotels,Seattle,US,bank_transfer,settled,0
+TXN0000759,CUST00108,ACC00309,2025-07-10T00:46:00,11.49,USD,purchase,restaurants,Pasta House,Chicago,US,bank_transfer,settled,0
+TXN0000287,CUST00113,ACC00061,2025-07-11T09:01:00,23.29,USD,purchase,grocery,Fresh Market,Seattle,US,credit_card,settled,0
+TXN0000429,CUST00217,ACC00131,2025-07-12T09:55:00,78.13,USD,purchase,retail,Everyday Goods,Dallas,US,bank_transfer,reversed,0
+TXN0000633,CUST00014,ACC00086,2025-07-12T12:38:00,23.15,USD,purchase,healthcare,CarePlus Clinic,New York,US,digital_wallet,settled,0
+TXN0000995,CUST00101,ACC00112,2025-07-12T18:51:00,9.96,USD,purchase,utilities,City Water,Dallas,US,debit_card,reversed,0
+TXN0000792,CUST00055,ACC00095,2025-07-13T00:30:00,33.37,USD,purchase,utilities,Power & Light,Seattle,US,bank_transfer,settled,0
+TXN0000025,CUST00074,ACC00217,2025-07-13T02:45:00,15.73,USD,transfer,grocery,City Foods,Seattle,US,digital_wallet,pending,0
+TXN0000081,CUST00016,ACC00085,2025-07-13T10:15:00,-21.77,USD,refund,electronics,Device World,Chicago,US,bank_transfer,settled,0
+TXN0000519,CUST00140,ACC00241,2025-07-14T01:29:00,29.94,USD,purchase,travel,Metro Transit,New York,US,credit_card,settled,0
+TXN0000013,CUST00029,ACC00151,2025-07-14T07:06:00,34.53,USD,purchase,grocery,Green Grocer,New York,US,credit_card,settled,0
+TXN0000093,CUST00186,ACC00153,2025-07-14T13:10:00,-13.44,USD,refund,retail,Home Essentials,Dallas,US,digital_wallet,settled,0
+TXN0000786,CUST00024,ACC00217,2025-07-15T12:01:00,79.9,USD,purchase,retail,Urban Outfitters,Seattle,US,credit_card,pending,0
+TXN0000517,CUST00187,ACC00005,2025-07-16T00:31:00,44.74,USD,purchase,restaurants,Harbor Cafe,Dallas,US,debit_card,pending,0
+TXN0000495,CUST00088,ACC00188,2025-07-16T04:15:00,124.35,USD,purchase,fuel,QuickFuel,Chicago,US,digital_wallet,reversed,0
+TXN0000999,CUST00169,ACC00225,2025-07-16T05:32:00,15.31,USD,purchase,retail,Everyday Goods,Chicago,US,credit_card,pending,0
+TXN0000569,CUST00191,ACC00344,2025-07-16T12:07:00,4.18,USD,transfer,retail,Everyday Goods,New York,US,credit_card,settled,0
+TXN0000497,CUST00111,ACC00196,2025-07-16T13:42:00,-9.61,USD,refund,electronics,TechHub,New York,US,credit_card,reversed,0
+TXN0000660,CUST00062,ACC00090,2025-07-17T07:11:00,23.47,USD,purchase,electronics,Digital Store,Chicago,US,debit_card,pending,0
+TXN0000316,CUST00096,ACC00062,2025-07-17T12:34:00,-27.69,USD,refund,retail,Home Essentials,Dallas,US,debit_card,reversed,0
+TXN0000709,CUST00025,ACC00274,2025-07-17T16:05:00,3.38,USD,purchase,healthcare,Health Supplies,Dallas,US,bank_transfer,settled,0
+TXN0000209,CUST00190,ACC00301,2025-07-17T18:55:00,45.38,USD,purchase,fuel,QuickFuel,Atlanta,US,credit_card,reversed,0
+TXN0000636,CUST00206,ACC00051,2025-07-18T11:51:00,5.18,USD,purchase,retail,Urban Outfitters,Atlanta,US,digital_wallet,settled,0
+TXN0000758,CUST00121,ACC00212,2025-07-19T13:08:00,32.62,USD,withdrawal,retail,Urban Outfitters,New York,US,digital_wallet,pending,0
+TXN0000889,CUST00036,ACC00279,2025-07-19T20:36:00,48.94,USD,purchase,fuel,Roadside Gas,Dallas,US,debit_card,reversed,0
+TXN0000001,CUST00189,ACC00053,2025-07-20T06:29:00,44.55,USD,purchase,restaurants,Pasta House,New York,US,debit_card,settled,0
+TXN0000229,CUST00009,ACC00339,2025-07-20T17:19:00,13.26,USD,purchase,healthcare,CarePlus Clinic,Chicago,US,debit_card,settled,0
+TXN0000303,CUST00142,ACC00308,2025-07-21T16:21:00,57.24,USD,purchase,travel,Central Hotels,Chicago,US,bank_transfer,settled,0
+TXN0000290,CUST00180,ACC00068,2025-07-21T22:34:00,14.55,USD,withdrawal,retail,Everyday Goods,New York,US,credit_card,settled,0
+TXN0000854,CUST00044,ACC00283,2025-07-21T22:59:00,89.03,USD,purchase,retail,Everyday Goods,New York,US,credit_card,pending,0
+TXN0000858,CUST00115,ACC00162,2025-07-22T09:13:00,43.44,USD,transfer,electronics,TechHub,New York,US,digital_wallet,reversed,0
+TXN0000292,CUST00117,ACC00250,2025-07-22T14:20:00,16.56,USD,purchase,restaurants,Northside Grill,Seattle,US,debit_card,settled,0
+TXN0000277,CUST00148,ACC00053,2025-07-22T16:25:00,33.08,USD,purchase,electronics,Digital Store,Chicago,US,credit_card,settled,0
+TXN0000948,CUST00095,ACC00232,2025-07-23T12:02:00,13.57,USD,transfer,restaurants,Pasta House,Atlanta,US,digital_wallet,settled,0
+TXN0000561,CUST00230,ACC00202,2025-07-24T00:44:00,36.23,USD,purchase,retail,Home Essentials,New York,US,credit_card,settled,0
+TXN0000774,CUST00073,ACC00135,2025-07-24T14:50:00,71.7,USD,purchase,travel,Central Hotels,Seattle,US,bank_transfer,pending,0
+TXN0000852,CUST00050,ACC00047,2025-07-24T17:10:00,15.56,USD,purchase,electronics,Digital Store,New York,US,bank_transfer,settled,0
+TXN0000710,CUST00106,ACC00175,2025-07-24T22:07:00,147.89,USD,purchase,grocery,Fresh Market,Chicago,US,debit_card,pending,0
+TXN0000033,CUST00053,ACC00325,2025-07-25T04:02:00,26.75,USD,purchase,travel,Skyway Airlines,Dallas,US,digital_wallet,settled,0
+TXN0000471,CUST00105,ACC00132,2025-07-26T06:26:00,20.59,USD,purchase,electronics,TechHub,New York,US,debit_card,reversed,0
+TXN0000482,CUST00235,ACC00299,2025-07-27T03:53:00,10.43,USD,purchase,restaurants,Northside Grill,New York,US,bank_transfer,reversed,0
+TXN0000214,CUST00135,ACC00253,2025-07-27T05:04:00,52.01,USD,purchase,restaurants,Harbor Cafe,Dallas,US,digital_wallet,reversed,0
+TXN0000698,CUST00115,ACC00288,2025-07-27T06:37:00,7.76,USD,purchase,healthcare,Community Pharmacy,New York,US,credit_card,settled,0
+TXN0000447,CUST00082,ACC00249,2025-07-27T15:07:00,39.12,USD,purchase,electronics,Device World,New York,US,bank_transfer,settled,0
+TXN0000179,CUST00052,ACC00063,2025-07-27T22:49:00,20.81,USD,purchase,utilities,Power & Light,Chicago,US,debit_card,pending,0
+TXN0000802,CUST00089,ACC00225,2025-07-29T17:21:00,16.18,USD,purchase,grocery,Fresh Market,Chicago,US,credit_card,pending,0
+TXN0000693,CUST00171,ACC00076,2025-07-31T01:05:00,9.2,USD,transfer,fuel,Metro Petroleum,Seattle,US,digital_wallet,reversed,0
+TXN0000768,CUST00159,ACC00231,2025-07-31T07:29:00,159.3,USD,transfer,travel,Metro Transit,New York,US,bank_transfer,settled,0
+TXN0000401,CUST00110,ACC00060,2025-07-31T14:01:00,5.5,USD,purchase,travel,Metro Transit,New York,US,debit_card,settled,1
+TXN0000391,CUST00153,ACC00269,2025-07-31T18:35:00,11.04,USD,purchase,grocery,Green Grocer,Dallas,US,digital_wallet,reversed,0
+TXN0000573,CUST00199,ACC00147,2025-08-01T00:43:00,37.6,USD,purchase,grocery,Green Grocer,Chicago,US,credit_card,settled,0
+TXN0000961,CUST00016,ACC00171,2025-08-01T06:14:00,51.56,USD,purchase,electronics,TechHub,Seattle,US,credit_card,pending,0
+TXN0000615,CUST00115,ACC00101,2025-08-01T06:23:00,312.86,USD,purchase,utilities,Power & Light,Atlanta,US,bank_transfer,reversed,0
+TXN0000091,CUST00107,ACC00248,2025-08-01T12:39:00,29.88,USD,purchase,travel,Skyway Airlines,Seattle,US,credit_card,settled,0
+TXN0000284,CUST00138,ACC00148,2025-08-01T16:38:00,7.86,USD,purchase,grocery,Fresh Market,Chicago,US,digital_wallet,settled,0
+TXN0000074,CUST00164,ACC00252,2025-08-01T17:27:00,129.62,USD,purchase,grocery,Fresh Market,Atlanta,US,debit_card,settled,0
+TXN0000976,CUST00036,ACC00296,2025-08-02T15:28:00,4.1,USD,purchase,grocery,Green Grocer,Atlanta,US,bank_transfer,pending,0
+TXN0000829,CUST00037,ACC00302,2025-08-03T01:41:00,17.81,USD,purchase,healthcare,CarePlus Clinic,Dallas,US,debit_card,settled,0
+TXN0000125,CUST00111,ACC00051,2025-08-03T17:42:00,48.76,USD,purchase,healthcare,Health Supplies,Seattle,US,debit_card,reversed,0
+TXN0000442,CUST00077,ACC00347,2025-08-03T19:07:00,26.24,USD,transfer,retail,Home Essentials,Atlanta,US,bank_transfer,settled,0
+TXN0000110,CUST00206,ACC00059,2025-08-03T21:58:00,25.17,USD,purchase,fuel,Roadside Gas,Seattle,US,debit_card,settled,0
+TXN0000256,CUST00022,ACC00138,2025-08-04T02:07:00,-16.71,USD,refund,retail,Everyday Goods,New York,US,digital_wallet,settled,0
+TXN0000173,CUST00184,ACC00219,2025-08-04T06:40:00,25.1,USD,purchase,restaurants,Harbor Cafe,Dallas,US,digital_wallet,reversed,0
+TXN0000529,CUST00094,ACC00233,2025-08-04T07:15:00,-35.15,USD,refund,travel,Metro Transit,Seattle,US,digital_wallet,reversed,0
+TXN0000675,CUST00005,ACC00246,2025-08-04T09:18:00,6.64,USD,purchase,travel,Central Hotels,Dallas,US,bank_transfer,settled,0
+TXN0000154,CUST00130,ACC00277,2025-08-04T09:20:00,34.2,USD,withdrawal,travel,Central Hotels,New York,US,debit_card,settled,0
+TXN0000206,CUST00177,ACC00251,2025-08-05T17:11:00,10.61,USD,purchase,fuel,Roadside Gas,Chicago,US,digital_wallet,settled,0
+TXN0000385,CUST00036,ACC00103,2025-08-06T06:08:00,12.69,USD,purchase,restaurants,Northside Grill,Seattle,US,digital_wallet,settled,0
+TXN0000975,CUST00044,ACC00217,2025-08-06T10:01:00,17.35,USD,purchase,restaurants,Pasta House,Atlanta,US,debit_card,reversed,0
+TXN0000104,CUST00177,ACC00129,2025-08-06T20:05:00,12.15,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,bank_transfer,pending,0
+TXN0000032,CUST00241,ACC00069,2025-08-07T00:01:00,172.82,USD,transfer,grocery,Green Grocer,Atlanta,US,debit_card,settled,0
+TXN0000512,CUST00205,ACC00150,2025-08-07T04:04:00,25.78,USD,purchase,utilities,NetConnect,Seattle,US,credit_card,pending,0
+TXN0000200,CUST00095,ACC00170,2025-08-07T07:13:00,8.65,USD,purchase,utilities,NetConnect,Atlanta,US,debit_card,settled,0
+TXN0000541,CUST00220,ACC00162,2025-08-07T16:42:00,62.53,USD,transfer,fuel,QuickFuel,New York,US,bank_transfer,settled,0
+TXN0000367,CUST00199,ACC00165,2025-08-07T19:16:00,33.92,USD,transfer,electronics,Device World,Chicago,US,digital_wallet,pending,0
+TXN0000045,CUST00078,ACC00147,2025-08-08T03:28:00,6.18,USD,purchase,retail,Everyday Goods,Chicago,US,digital_wallet,settled,0
+TXN0000818,CUST00086,ACC00200,2025-08-08T13:38:00,66.0,USD,purchase,retail,Home Essentials,Chicago,US,credit_card,reversed,0
+TXN0000918,CUST00027,ACC00275,2025-08-08T13:41:00,32.67,USD,purchase,electronics,Digital Store,Seattle,US,credit_card,pending,0
+TXN0000123,CUST00016,ACC00246,2025-08-08T15:22:00,110.25,USD,purchase,grocery,Green Grocer,Atlanta,US,digital_wallet,settled,0
+TXN0000596,CUST00201,ACC00020,2025-08-09T03:23:00,16.28,USD,purchase,fuel,QuickFuel,Chicago,US,debit_card,settled,0
+TXN0000186,CUST00129,ACC00329,2025-08-09T12:14:00,55.37,USD,purchase,fuel,QuickFuel,Chicago,US,credit_card,settled,0
+TXN0000820,CUST00029,ACC00031,2025-08-10T07:46:00,78.69,USD,purchase,fuel,Roadside Gas,Chicago,US,bank_transfer,reversed,0
+TXN0000687,CUST00044,ACC00134,2025-08-10T10:13:00,21.32,USD,purchase,utilities,Power & Light,Seattle,US,digital_wallet,settled,0
+TXN0000114,CUST00025,ACC00121,2025-08-10T15:09:00,318.38,USD,transfer,grocery,City Foods,New York,US,credit_card,settled,0
+TXN0000546,CUST00139,ACC00290,2025-08-10T22:28:00,12.22,USD,purchase,retail,Everyday Goods,New York,US,bank_transfer,settled,0
+TXN0000345,CUST00033,ACC00091,2025-08-12T10:07:00,16.93,USD,purchase,travel,Central Hotels,Seattle,US,debit_card,settled,0
+TXN0000834,CUST00165,ACC00287,2025-08-13T21:30:00,12.58,USD,purchase,grocery,Fresh Market,Atlanta,US,credit_card,settled,0
+TXN0000153,CUST00088,ACC00249,2025-08-13T21:49:00,13.74,USD,purchase,grocery,Fresh Market,Dallas,US,credit_card,settled,0
+TXN0000340,CUST00024,ACC00029,2025-08-14T01:05:00,15.43,USD,purchase,electronics,TechHub,Seattle,US,credit_card,settled,0
+TXN0000044,CUST00104,ACC00152,2025-08-14T05:08:00,20.06,USD,purchase,restaurants,Pasta House,Dallas,US,credit_card,settled,0
+TXN0000151,CUST00034,ACC00305,2025-08-14T21:41:00,34.83,USD,transfer,travel,Central Hotels,Dallas,US,debit_card,pending,0
+TXN0000901,CUST00184,ACC00235,2025-08-14T23:07:00,39.2,USD,purchase,utilities,City Water,Chicago,US,credit_card,reversed,1
+TXN0000219,CUST00095,ACC00315,2025-08-15T10:44:00,16.69,USD,purchase,travel,Metro Transit,Seattle,US,credit_card,settled,0
+TXN0000369,CUST00035,ACC00269,2025-08-15T13:16:00,29.89,USD,purchase,travel,Central Hotels,New York,US,debit_card,pending,0
+TXN0000127,CUST00245,ACC00079,2025-08-16T13:44:00,10.07,USD,purchase,healthcare,Health Supplies,Seattle,US,digital_wallet,settled,0
+TXN0000280,CUST00030,ACC00094,2025-08-17T01:19:00,18.44,USD,purchase,restaurants,Northside Grill,Chicago,US,credit_card,settled,0
+TXN0000042,CUST00030,ACC00198,2025-08-17T09:54:00,32.18,USD,purchase,retail,Home Essentials,Dallas,US,credit_card,reversed,0
+TXN0000775,CUST00196,ACC00078,2025-08-18T18:30:00,50.49,USD,purchase,retail,Home Essentials,Chicago,US,digital_wallet,pending,0
+TXN0000635,CUST00025,ACC00273,2025-08-18T21:03:00,9.85,USD,transfer,utilities,NetConnect,Seattle,US,bank_transfer,settled,0
+TXN0000386,CUST00200,ACC00042,2025-08-19T09:12:00,31.51,USD,withdrawal,utilities,City Water,Chicago,US,bank_transfer,settled,0
+TXN0000439,CUST00137,ACC00004,2025-08-19T09:33:00,4.94,USD,purchase,retail,Home Essentials,Seattle,US,debit_card,settled,0
+TXN0000257,CUST00002,ACC00158,2025-08-19T14:21:00,96.25,USD,purchase,travel,Skyway Airlines,Seattle,US,bank_transfer,settled,0
+TXN0000773,CUST00037,ACC00134,2025-08-20T01:31:00,51.03,USD,purchase,travel,Metro Transit,New York,US,bank_transfer,pending,0
+TXN0000431,CUST00134,ACC00035,2025-08-20T10:59:00,8.3,USD,purchase,healthcare,Health Supplies,New York,US,credit_card,settled,0
+TXN0000324,CUST00020,ACC00104,2025-08-20T14:27:00,219.73,USD,purchase,retail,Everyday Goods,Dallas,US,debit_card,settled,0
+TXN0000847,CUST00163,ACC00134,2025-08-20T18:45:00,36.2,USD,withdrawal,electronics,Digital Store,Atlanta,US,digital_wallet,settled,0
+TXN0000602,CUST00147,ACC00126,2025-08-20T21:55:00,10.78,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,debit_card,settled,0
+TXN0000565,CUST00247,ACC00211,2025-08-21T01:28:00,90.13,USD,withdrawal,travel,Skyway Airlines,New York,US,digital_wallet,pending,0
+TXN0000336,CUST00230,ACC00144,2025-08-21T04:47:00,23.4,USD,purchase,travel,Metro Transit,New York,US,digital_wallet,settled,0
+TXN0000180,CUST00141,ACC00278,2025-08-21T17:12:00,411.65,USD,purchase,utilities,City Water,New York,US,bank_transfer,settled,0
+TXN0000681,CUST00129,ACC00349,2025-08-22T08:30:00,55.79,USD,purchase,electronics,Device World,Chicago,US,bank_transfer,settled,0
+TXN0000264,CUST00123,ACC00161,2025-08-22T12:01:00,9.73,USD,purchase,travel,Metro Transit,Dallas,US,digital_wallet,settled,0
+TXN0000600,CUST00071,ACC00273,2025-08-22T15:47:00,39.54,USD,purchase,fuel,Roadside Gas,Chicago,US,digital_wallet,settled,0
+TXN0000882,CUST00178,ACC00248,2025-08-23T08:16:00,15.94,USD,purchase,utilities,NetConnect,Chicago,US,digital_wallet,reversed,0
+TXN0000949,CUST00224,ACC00024,2025-08-23T14:33:00,25.9,USD,purchase,electronics,Digital Store,New York,US,bank_transfer,settled,0
+TXN0000422,CUST00144,ACC00246,2025-08-23T18:01:00,156.86,USD,purchase,travel,Central Hotels,Atlanta,US,digital_wallet,settled,0
+TXN0000087,CUST00222,ACC00264,2025-08-24T09:37:00,67.72,USD,purchase,healthcare,Community Pharmacy,Dallas,US,digital_wallet,pending,0
+TXN0000217,CUST00067,ACC00197,2025-08-24T15:20:00,12.52,USD,transfer,travel,Metro Transit,Seattle,US,digital_wallet,settled,0
+TXN0000121,CUST00014,ACC00065,2025-08-24T18:18:00,59.8,USD,purchase,electronics,Digital Store,Atlanta,US,digital_wallet,settled,0
+TXN0000576,CUST00184,ACC00064,2025-08-24T23:37:00,2.97,USD,purchase,restaurants,Harbor Cafe,Dallas,US,debit_card,settled,0
+TXN0000919,CUST00174,ACC00069,2025-08-25T04:30:00,17.35,USD,transfer,restaurants,Northside Grill,Atlanta,US,credit_card,pending,0
+TXN0000523,CUST00150,ACC00062,2025-08-25T07:17:00,13.98,USD,purchase,electronics,Device World,Seattle,US,credit_card,settled,1
+TXN0000378,CUST00168,ACC00334,2025-08-25T18:10:00,32.57,USD,withdrawal,healthcare,CarePlus Clinic,Dallas,US,credit_card,settled,0
+TXN0000609,CUST00203,ACC00155,2025-08-26T06:59:00,4.58,USD,purchase,retail,Home Essentials,New York,US,digital_wallet,settled,0
+TXN0000880,CUST00224,ACC00065,2025-08-27T14:38:00,88.98,USD,purchase,fuel,Metro Petroleum,Chicago,US,digital_wallet,settled,0
+TXN0000823,CUST00211,ACC00185,2025-08-27T17:32:00,270.13,USD,purchase,electronics,Device World,New York,US,debit_card,settled,0
+TXN0000866,CUST00027,ACC00007,2025-08-27T23:36:00,18.4,USD,purchase,grocery,City Foods,Seattle,US,debit_card,settled,0
+TXN0000402,CUST00245,ACC00319,2025-08-28T07:45:00,14.89,USD,purchase,travel,Skyway Airlines,Chicago,US,debit_card,pending,0
+TXN0000150,CUST00073,ACC00130,2025-08-29T01:45:00,36.49,USD,purchase,healthcare,Health Supplies,New York,US,credit_card,pending,0
+TXN0000947,CUST00117,ACC00206,2025-08-29T11:37:00,-5.9,USD,refund,grocery,City Foods,Dallas,US,credit_card,settled,0
+TXN0000236,CUST00217,ACC00190,2025-08-29T11:45:00,51.11,USD,purchase,fuel,QuickFuel,Chicago,US,credit_card,pending,0
+TXN0000071,CUST00070,ACC00157,2025-08-29T20:59:00,38.92,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,credit_card,pending,0
+TXN0000871,CUST00247,ACC00172,2025-08-30T03:11:00,22.72,USD,withdrawal,utilities,NetConnect,Seattle,US,bank_transfer,reversed,0
+TXN0000041,CUST00225,ACC00134,2025-08-30T03:15:00,56.74,USD,transfer,retail,Everyday Goods,Atlanta,US,bank_transfer,settled,0
+TXN0000627,CUST00075,ACC00086,2025-08-30T09:37:00,10.08,USD,purchase,utilities,Power & Light,Atlanta,US,bank_transfer,settled,0
+TXN0000253,CUST00203,ACC00041,2025-08-30T13:23:00,226.37,USD,purchase,retail,Home Essentials,Atlanta,US,bank_transfer,settled,0
+TXN0000341,CUST00207,ACC00067,2025-08-30T13:28:00,11.91,USD,transfer,utilities,City Water,New York,US,credit_card,settled,0
+TXN0000038,CUST00206,ACC00343,2025-08-30T21:21:00,-3.82,USD,refund,grocery,City Foods,Chicago,US,credit_card,pending,0
+TXN0000118,CUST00202,ACC00290,2025-08-31T20:29:00,8.43,USD,purchase,grocery,Fresh Market,New York,US,debit_card,settled,0
+TXN0000500,CUST00144,ACC00286,2025-09-01T16:32:00,6.8,USD,purchase,restaurants,Northside Grill,Seattle,US,bank_transfer,settled,0
+TXN0000592,CUST00238,ACC00029,2025-09-02T00:27:00,16.82,USD,purchase,utilities,NetConnect,Atlanta,US,bank_transfer,pending,0
+TXN0000047,CUST00173,ACC00159,2025-09-02T01:50:00,17.1,USD,purchase,fuel,QuickFuel,Atlanta,US,credit_card,settled,0
+TXN0000700,CUST00194,ACC00193,2025-09-02T05:49:00,22.54,USD,purchase,fuel,QuickFuel,Seattle,US,debit_card,reversed,0
+TXN0000686,CUST00168,ACC00331,2025-09-02T13:52:00,55.31,USD,purchase,electronics,Device World,Atlanta,US,digital_wallet,settled,0
+TXN0000669,CUST00016,ACC00144,2025-09-02T14:07:00,1.91,USD,purchase,fuel,QuickFuel,Chicago,US,debit_card,reversed,0
+TXN0000739,CUST00043,ACC00315,2025-09-02T15:27:00,143.38,USD,purchase,restaurants,Northside Grill,Chicago,US,bank_transfer,settled,0
+TXN0000004,CUST00025,ACC00184,2025-09-03T02:24:00,124.34,USD,purchase,travel,Skyway Airlines,Chicago,US,bank_transfer,pending,0
+TXN0000294,CUST00145,ACC00249,2025-09-03T22:41:00,63.41,USD,purchase,healthcare,CarePlus Clinic,Dallas,US,debit_card,settled,0
+TXN0000591,CUST00235,ACC00243,2025-09-04T01:52:00,29.12,USD,transfer,electronics,TechHub,Dallas,US,credit_card,pending,0
+TXN0000168,CUST00213,ACC00238,2025-09-04T12:32:00,-180.69,USD,refund,healthcare,Health Supplies,Atlanta,US,digital_wallet,settled,0
+TXN0000648,CUST00195,ACC00149,2025-09-05T15:01:00,25.68,USD,purchase,restaurants,Pasta House,Dallas,US,credit_card,pending,0
+TXN0000413,CUST00210,ACC00115,2025-09-06T04:51:00,5.85,USD,purchase,electronics,Device World,Seattle,US,bank_transfer,settled,0
+TXN0000351,CUST00042,ACC00039,2025-09-06T21:31:00,37.0,USD,purchase,restaurants,Pasta House,New York,US,debit_card,pending,0
+TXN0000518,CUST00096,ACC00238,2025-09-06T23:21:00,10.2,USD,purchase,utilities,NetConnect,Chicago,US,debit_card,pending,0
+TXN0000611,CUST00045,ACC00340,2025-09-07T04:23:00,52.16,USD,purchase,retail,Home Essentials,Seattle,US,debit_card,settled,0
+TXN0000466,CUST00152,ACC00036,2025-09-07T12:36:00,21.74,USD,transfer,fuel,QuickFuel,Chicago,US,digital_wallet,reversed,0
+TXN0000274,CUST00239,ACC00125,2025-09-07T19:43:00,27.39,USD,purchase,restaurants,Pasta House,New York,US,credit_card,settled,0
+TXN0000908,CUST00102,ACC00020,2025-09-08T05:51:00,57.18,USD,purchase,utilities,Power & Light,Seattle,US,bank_transfer,settled,0
+TXN0000870,CUST00164,ACC00104,2025-09-08T08:37:00,202.39,USD,purchase,grocery,Fresh Market,Seattle,US,bank_transfer,settled,0
+TXN0000364,CUST00099,ACC00336,2025-09-08T09:32:00,40.52,USD,withdrawal,restaurants,Northside Grill,Dallas,US,digital_wallet,settled,0
+TXN0000616,CUST00003,ACC00314,2025-09-08T16:27:00,30.85,USD,transfer,fuel,Metro Petroleum,Seattle,US,digital_wallet,reversed,0
+TXN0000390,CUST00099,ACC00258,2025-09-08T17:56:00,15.23,USD,purchase,electronics,Digital Store,Chicago,US,bank_transfer,settled,0
+TXN0000475,CUST00189,ACC00071,2025-09-08T18:03:00,140.47,USD,purchase,fuel,Metro Petroleum,Atlanta,US,debit_card,pending,0
+TXN0000408,CUST00039,ACC00286,2025-09-09T18:24:00,23.51,USD,purchase,electronics,Digital Store,Seattle,US,debit_card,pending,1
+TXN0000208,CUST00192,ACC00246,2025-09-10T05:08:00,45.32,USD,transfer,fuel,QuickFuel,New York,US,credit_card,settled,0
+TXN0000685,CUST00075,ACC00097,2025-09-10T11:01:00,7.99,USD,purchase,travel,Metro Transit,Seattle,US,debit_card,settled,0
+TXN0000493,CUST00118,ACC00062,2025-09-10T21:18:00,29.29,USD,purchase,grocery,City Foods,Atlanta,US,digital_wallet,settled,0
+TXN0000526,CUST00188,ACC00099,2025-09-10T21:49:00,-4.46,USD,refund,healthcare,Community Pharmacy,Atlanta,US,digital_wallet,pending,0
+TXN0000528,CUST00071,ACC00307,2025-09-11T03:52:00,28.45,USD,purchase,travel,Central Hotels,Atlanta,US,credit_card,pending,0
+TXN0000717,CUST00200,ACC00314,2025-09-11T06:53:00,30.39,USD,purchase,fuel,QuickFuel,Atlanta,US,debit_card,reversed,0
+TXN0000985,CUST00142,ACC00139,2025-09-12T01:28:00,27.02,USD,purchase,utilities,NetConnect,New York,US,debit_card,settled,0
+TXN0000582,CUST00171,ACC00296,2025-09-12T03:33:00,17.9,USD,purchase,travel,Central Hotels,New York,US,bank_transfer,settled,0
+TXN0000432,CUST00170,ACC00170,2025-09-12T10:15:00,3.53,USD,purchase,retail,Urban Outfitters,New York,US,bank_transfer,settled,0
+TXN0000778,CUST00047,ACC00087,2025-09-12T13:46:00,21.17,USD,purchase,travel,Central Hotels,New York,US,bank_transfer,settled,0
+TXN0000470,CUST00026,ACC00218,2025-09-13T05:44:00,15.24,USD,purchase,utilities,Power & Light,Seattle,US,bank_transfer,reversed,0
+TXN0000608,CUST00073,ACC00179,2025-09-13T21:52:00,7.81,USD,purchase,utilities,NetConnect,New York,US,credit_card,settled,0
+TXN0000885,CUST00120,ACC00263,2025-09-14T00:13:00,53.62,USD,purchase,fuel,Metro Petroleum,Seattle,US,bank_transfer,settled,0
+TXN0000560,CUST00061,ACC00257,2025-09-14T06:07:00,17.8,USD,purchase,grocery,Green Grocer,Dallas,US,debit_card,settled,0
+TXN0000279,CUST00045,ACC00345,2025-09-14T07:22:00,29.07,USD,withdrawal,restaurants,Pasta House,Dallas,US,bank_transfer,reversed,0
+TXN0000107,CUST00159,ACC00129,2025-09-14T13:15:00,178.79,USD,purchase,fuel,Metro Petroleum,Chicago,US,credit_card,settled,0
+TXN0000194,CUST00127,ACC00306,2025-09-14T23:17:00,7.8,USD,purchase,electronics,Digital Store,Chicago,US,digital_wallet,settled,0
+TXN0000481,CUST00151,ACC00103,2025-09-15T03:21:00,23.86,USD,purchase,fuel,Metro Petroleum,Seattle,US,debit_card,pending,0
+TXN0000205,CUST00157,ACC00248,2025-09-15T23:36:00,6.84,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,credit_card,settled,0
+TXN0000997,CUST00126,ACC00102,2025-09-16T03:54:00,163.64,USD,purchase,travel,Metro Transit,Seattle,US,credit_card,pending,0
+TXN0000996,CUST00085,ACC00153,2025-09-17T01:04:00,20.47,USD,purchase,utilities,City Water,New York,US,debit_card,pending,1
+TXN0000490,CUST00031,ACC00041,2025-09-17T06:01:00,65.47,USD,purchase,electronics,Digital Store,Atlanta,US,digital_wallet,settled,0
+TXN0000806,CUST00212,ACC00258,2025-09-17T23:47:00,19.9,USD,purchase,healthcare,Community Pharmacy,Dallas,US,debit_card,settled,0
+TXN0000695,CUST00156,ACC00329,2025-09-18T05:54:00,49.06,USD,purchase,electronics,TechHub,Seattle,US,credit_card,settled,0
+TXN0000440,CUST00075,ACC00155,2025-09-18T11:15:00,25.65,USD,transfer,grocery,City Foods,New York,US,debit_card,settled,0
+TXN0000537,CUST00227,ACC00054,2025-09-18T15:51:00,11.47,USD,purchase,retail,Everyday Goods,New York,US,credit_card,pending,0
+TXN0000293,CUST00102,ACC00112,2025-09-18T20:23:00,15.04,USD,withdrawal,restaurants,Northside Grill,Seattle,US,credit_card,reversed,0
+TXN0000117,CUST00049,ACC00063,2025-09-19T04:16:00,26.19,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,debit_card,settled,0
+TXN0000450,CUST00142,ACC00056,2025-09-19T05:27:00,9.4,USD,purchase,utilities,Power & Light,Seattle,US,debit_card,pending,0
+TXN0000335,CUST00089,ACC00290,2025-09-19T11:56:00,71.89,USD,purchase,grocery,City Foods,Seattle,US,bank_transfer,pending,0
+TXN0001000,CUST00029,ACC00098,2025-09-19T14:07:00,48.07,USD,withdrawal,retail,Urban Outfitters,New York,US,debit_card,settled,0
+TXN0000929,CUST00121,ACC00226,2025-09-19T20:08:00,129.74,USD,purchase,utilities,City Water,New York,US,digital_wallet,settled,0
+TXN0000705,CUST00112,ACC00133,2025-09-21T10:12:00,5.72,USD,purchase,restaurants,Pasta House,Atlanta,US,digital_wallet,reversed,0
+TXN0000088,CUST00161,ACC00227,2025-09-21T10:33:00,37.67,USD,purchase,electronics,TechHub,Atlanta,US,credit_card,pending,0
+TXN0000662,CUST00130,ACC00113,2025-09-21T12:41:00,15.69,USD,withdrawal,restaurants,Northside Grill,Atlanta,US,credit_card,reversed,0
+TXN0000966,CUST00027,ACC00348,2025-09-21T18:21:00,114.45,USD,purchase,electronics,TechHub,New York,US,digital_wallet,reversed,0
+TXN0000754,CUST00211,ACC00158,2025-09-22T07:51:00,77.76,USD,purchase,fuel,QuickFuel,Chicago,US,debit_card,settled,0
+TXN0000454,CUST00218,ACC00315,2025-09-22T23:00:00,44.88,USD,purchase,restaurants,Pasta House,Seattle,US,credit_card,settled,0
+TXN0000530,CUST00083,ACC00033,2025-09-23T02:40:00,10.98,USD,purchase,grocery,City Foods,Atlanta,US,digital_wallet,settled,0
+TXN0000496,CUST00116,ACC00093,2025-09-23T20:12:00,46.47,USD,withdrawal,retail,Home Essentials,Dallas,US,credit_card,settled,0
+TXN0000551,CUST00089,ACC00305,2025-09-23T23:30:00,29.56,USD,purchase,retail,Home Essentials,Seattle,US,debit_card,settled,0
+TXN0000111,CUST00004,ACC00136,2025-09-24T08:22:00,3.98,USD,purchase,electronics,Digital Store,Seattle,US,debit_card,pending,0
+TXN0000957,CUST00245,ACC00195,2025-09-25T18:40:00,38.2,USD,purchase,restaurants,Pasta House,Atlanta,US,debit_card,settled,0
+TXN0000157,CUST00113,ACC00237,2025-09-25T20:29:00,175.17,USD,purchase,utilities,City Water,Chicago,US,digital_wallet,reversed,0
+TXN0000617,CUST00001,ACC00287,2025-09-26T20:38:00,30.25,USD,transfer,fuel,Roadside Gas,New York,US,debit_card,settled,0
+TXN0000007,CUST00180,ACC00350,2025-09-27T13:22:00,131.53,USD,purchase,healthcare,Health Supplies,Chicago,US,debit_card,settled,0
+TXN0000491,CUST00230,ACC00295,2025-09-28T07:07:00,26.9,USD,purchase,grocery,Green Grocer,Seattle,US,digital_wallet,pending,0
+TXN0000812,CUST00093,ACC00323,2025-09-29T04:47:00,17.47,USD,purchase,restaurants,Pasta House,Dallas,US,credit_card,pending,0
+TXN0000366,CUST00080,ACC00144,2025-09-29T04:52:00,18.15,USD,purchase,utilities,City Water,Dallas,US,debit_card,settled,0
+TXN0000933,CUST00165,ACC00302,2025-09-29T17:10:00,6.37,USD,purchase,retail,Everyday Goods,Seattle,US,digital_wallet,settled,0
+TXN0000377,CUST00156,ACC00145,2025-09-30T12:08:00,64.87,USD,purchase,grocery,Green Grocer,Atlanta,US,debit_card,reversed,0
+TXN0000226,CUST00115,ACC00194,2025-09-30T16:10:00,80.56,USD,transfer,travel,Skyway Airlines,Seattle,US,debit_card,pending,0
+TXN0000753,CUST00082,ACC00280,2025-09-30T20:26:00,10.22,USD,purchase,grocery,Green Grocer,Seattle,US,digital_wallet,settled,0
+TXN0000101,CUST00136,ACC00211,2025-09-30T22:49:00,6.58,USD,purchase,fuel,Metro Petroleum,Dallas,US,credit_card,settled,0
+TXN0000594,CUST00147,ACC00311,2025-10-01T05:48:00,37.85,USD,purchase,grocery,Green Grocer,Dallas,US,credit_card,settled,0
+TXN0000667,CUST00121,ACC00300,2025-10-01T10:54:00,21.01,USD,withdrawal,retail,Urban Outfitters,Chicago,US,debit_card,settled,0
+TXN0000155,CUST00213,ACC00320,2025-10-02T07:39:00,36.35,USD,purchase,travel,Metro Transit,Atlanta,US,digital_wallet,settled,0
+TXN0000955,CUST00168,ACC00329,2025-10-02T12:43:00,24.97,USD,transfer,restaurants,Pasta House,Dallas,US,digital_wallet,pending,0
+TXN0000485,CUST00194,ACC00174,2025-10-02T13:57:00,12.73,USD,purchase,fuel,Roadside Gas,Seattle,US,digital_wallet,settled,0
+TXN0000994,CUST00087,ACC00348,2025-10-04T01:09:00,13.71,USD,purchase,retail,Everyday Goods,Seattle,US,debit_card,settled,0
+TXN0000202,CUST00009,ACC00294,2025-10-04T20:18:00,47.5,USD,purchase,travel,Central Hotels,Atlanta,US,debit_card,settled,0
+TXN0000138,CUST00129,ACC00287,2025-10-04T20:36:00,19.65,USD,purchase,travel,Central Hotels,Chicago,US,bank_transfer,settled,0
+TXN0000931,CUST00073,ACC00193,2025-10-05T00:50:00,15.56,USD,purchase,travel,Central Hotels,Dallas,US,digital_wallet,pending,0
+TXN0000558,CUST00232,ACC00162,2025-10-05T05:14:00,17.59,USD,purchase,retail,Urban Outfitters,Chicago,US,debit_card,settled,0
+TXN0000112,CUST00028,ACC00346,2025-10-05T10:54:00,-26.4,USD,refund,fuel,QuickFuel,Atlanta,US,digital_wallet,settled,0
+TXN0000783,CUST00046,ACC00123,2025-10-05T17:17:00,39.65,USD,purchase,grocery,Green Grocer,New York,US,debit_card,settled,0
+TXN0000930,CUST00195,ACC00154,2025-10-05T17:47:00,25.39,USD,purchase,utilities,NetConnect,New York,US,credit_card,settled,0
+TXN0000925,CUST00114,ACC00323,2025-10-05T18:56:00,89.57,USD,purchase,electronics,TechHub,Chicago,US,debit_card,settled,0
+TXN0000102,CUST00128,ACC00299,2025-10-06T13:26:00,17.8,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,credit_card,settled,0
+TXN0000176,CUST00155,ACC00079,2025-10-06T18:51:00,62.0,USD,transfer,healthcare,Health Supplies,Dallas,US,digital_wallet,settled,0
+TXN0000095,CUST00012,ACC00163,2025-10-06T20:54:00,18.32,USD,purchase,electronics,Digital Store,Chicago,US,digital_wallet,pending,0
+TXN0000577,CUST00157,ACC00082,2025-10-07T16:24:00,34.32,USD,purchase,healthcare,CarePlus Clinic,New York,US,digital_wallet,reversed,0
+TXN0000419,CUST00235,ACC00128,2025-10-08T02:28:00,88.17,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,digital_wallet,reversed,0
+TXN0000951,CUST00183,ACC00074,2025-10-08T05:53:00,21.3,USD,purchase,utilities,NetConnect,New York,US,debit_card,settled,0
+TXN0000841,CUST00016,ACC00163,2025-10-08T09:12:00,25.8,USD,transfer,electronics,Device World,Seattle,US,digital_wallet,settled,0
+TXN0000536,CUST00169,ACC00128,2025-10-08T14:08:00,28.43,USD,purchase,electronics,Digital Store,Atlanta,US,credit_card,reversed,0
+TXN0000305,CUST00164,ACC00305,2025-10-08T23:50:00,26.55,USD,purchase,electronics,TechHub,Seattle,US,debit_card,pending,0
+TXN0000898,CUST00075,ACC00338,2025-10-08T23:59:00,31.4,USD,purchase,electronics,Digital Store,New York,US,debit_card,settled,0
+TXN0000306,CUST00108,ACC00188,2025-10-09T16:29:00,30.49,USD,withdrawal,healthcare,Health Supplies,Chicago,US,credit_card,reversed,0
+TXN0000426,CUST00248,ACC00283,2025-10-10T05:00:00,106.55,USD,purchase,grocery,Fresh Market,Seattle,US,debit_card,settled,0
+TXN0000362,CUST00084,ACC00142,2025-10-10T14:31:00,125.55,USD,purchase,restaurants,Pasta House,New York,US,digital_wallet,reversed,0
+TXN0000338,CUST00046,ACC00122,2025-10-10T20:10:00,19.66,USD,purchase,electronics,Digital Store,Atlanta,US,bank_transfer,settled,0
+TXN0000756,CUST00238,ACC00131,2025-10-10T21:01:00,377.05,USD,purchase,electronics,Device World,Seattle,US,debit_card,pending,0
+TXN0000784,CUST00166,ACC00335,2025-10-10T21:34:00,49.93,USD,purchase,electronics,TechHub,Chicago,US,debit_card,settled,0
+TXN0000557,CUST00222,ACC00056,2025-10-11T00:03:00,16.65,USD,purchase,grocery,Fresh Market,New York,US,bank_transfer,settled,0
+TXN0000900,CUST00034,ACC00106,2025-10-11T06:08:00,11.98,USD,transfer,utilities,City Water,New York,US,digital_wallet,settled,0
+TXN0000732,CUST00146,ACC00346,2025-10-11T07:40:00,10.19,USD,purchase,travel,Skyway Airlines,Dallas,US,digital_wallet,settled,0
+TXN0000917,CUST00017,ACC00337,2025-10-11T09:31:00,49.79,USD,purchase,healthcare,CarePlus Clinic,New York,US,bank_transfer,settled,0
+TXN0000986,CUST00142,ACC00305,2025-10-11T16:06:00,8.51,USD,purchase,travel,Skyway Airlines,Dallas,US,digital_wallet,reversed,0
+TXN0000507,CUST00189,ACC00146,2025-10-11T21:03:00,14.99,USD,purchase,travel,Skyway Airlines,New York,US,credit_card,settled,0
+TXN0000911,CUST00174,ACC00140,2025-10-12T14:35:00,19.93,USD,purchase,restaurants,Harbor Cafe,Atlanta,US,digital_wallet,settled,0
+TXN0000604,CUST00229,ACC00304,2025-10-13T09:14:00,105.18,USD,purchase,restaurants,Pasta House,Seattle,US,digital_wallet,reversed,0
+TXN0000607,CUST00202,ACC00167,2025-10-13T12:02:00,12.51,USD,purchase,fuel,Roadside Gas,Dallas,US,digital_wallet,settled,0
+TXN0000453,CUST00188,ACC00149,2025-10-13T19:24:00,10.12,USD,purchase,travel,Metro Transit,Dallas,US,digital_wallet,reversed,0
+TXN0000643,CUST00028,ACC00074,2025-10-13T21:47:00,20.91,USD,purchase,utilities,NetConnect,Chicago,US,digital_wallet,pending,0
+TXN0000416,CUST00184,ACC00174,2025-10-14T02:21:00,12.83,USD,purchase,electronics,TechHub,New York,US,digital_wallet,settled,0
+TXN0000964,CUST00193,ACC00298,2025-10-14T17:40:00,55.09,USD,purchase,electronics,TechHub,Atlanta,US,bank_transfer,settled,0
+TXN0000571,CUST00153,ACC00275,2025-10-15T00:16:00,27.62,USD,purchase,retail,Home Essentials,Dallas,US,debit_card,reversed,0
+TXN0000441,CUST00122,ACC00081,2025-10-15T17:06:00,-39.81,USD,refund,utilities,NetConnect,Seattle,US,credit_card,settled,0
+TXN0000504,CUST00200,ACC00186,2025-10-15T23:04:00,47.61,USD,purchase,fuel,Metro Petroleum,Dallas,US,digital_wallet,pending,0
+TXN0000263,CUST00098,ACC00169,2025-10-16T03:13:00,1.06,USD,purchase,fuel,Roadside Gas,New York,US,bank_transfer,reversed,0
+TXN0000297,CUST00110,ACC00336,2025-10-16T14:34:00,66.66,USD,purchase,travel,Metro Transit,New York,US,debit_card,settled,1
+TXN0000371,CUST00175,ACC00016,2025-10-17T01:04:00,27.79,USD,purchase,utilities,Power & Light,Atlanta,US,bank_transfer,settled,0
+TXN0000540,CUST00073,ACC00306,2025-10-17T03:39:00,15.23,USD,purchase,utilities,Power & Light,Seattle,US,credit_card,settled,0
+TXN0000098,CUST00219,ACC00346,2025-10-17T10:31:00,35.2,USD,purchase,fuel,Metro Petroleum,Dallas,US,digital_wallet,settled,0
+TXN0000549,CUST00196,ACC00070,2025-10-18T04:45:00,39.3,USD,purchase,fuel,Roadside Gas,New York,US,credit_card,settled,0
+TXN0000011,CUST00131,ACC00253,2025-10-18T20:01:00,17.06,USD,purchase,retail,Everyday Goods,Atlanta,US,debit_card,settled,0
+TXN0000270,CUST00248,ACC00221,2025-10-18T23:49:00,30.9,USD,transfer,grocery,Fresh Market,Atlanta,US,debit_card,settled,0
+TXN0000049,CUST00229,ACC00055,2025-10-19T00:26:00,38.23,USD,purchase,retail,Urban Outfitters,Seattle,US,credit_card,settled,0
+TXN0000543,CUST00188,ACC00040,2025-10-19T02:58:00,46.05,USD,purchase,fuel,Metro Petroleum,New York,US,bank_transfer,settled,0
+TXN0000171,CUST00087,ACC00096,2025-10-19T06:53:00,11.14,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,digital_wallet,pending,0
+TXN0000198,CUST00010,ACC00071,2025-10-20T06:44:00,31.62,USD,purchase,electronics,Digital Store,Atlanta,US,bank_transfer,settled,0
+TXN0000816,CUST00224,ACC00156,2025-10-20T17:30:00,6.14,USD,withdrawal,fuel,Metro Petroleum,Seattle,US,bank_transfer,reversed,0
+TXN0000308,CUST00138,ACC00316,2025-10-20T22:18:00,15.01,USD,purchase,retail,Everyday Goods,Seattle,US,bank_transfer,reversed,0
+TXN0000082,CUST00139,ACC00253,2025-10-21T02:20:00,38.75,USD,transfer,utilities,City Water,Dallas,US,debit_card,reversed,0
+TXN0000825,CUST00200,ACC00203,2025-10-21T06:37:00,17.37,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,digital_wallet,reversed,0
+TXN0000894,CUST00077,ACC00167,2025-10-21T17:22:00,87.3,USD,purchase,retail,Home Essentials,Seattle,US,debit_card,reversed,0
+TXN0000890,CUST00194,ACC00336,2025-10-22T01:06:00,82.16,USD,transfer,fuel,QuickFuel,Dallas,US,digital_wallet,reversed,0
+TXN0000379,CUST00185,ACC00014,2025-10-22T06:07:00,242.21,USD,purchase,electronics,Digital Store,New York,US,digital_wallet,settled,0
+TXN0000725,CUST00186,ACC00256,2025-10-22T09:27:00,32.16,USD,purchase,healthcare,CarePlus Clinic,Chicago,US,bank_transfer,pending,0
+TXN0000328,CUST00192,ACC00282,2025-10-22T11:15:00,59.84,USD,withdrawal,travel,Metro Transit,New York,US,debit_card,reversed,0
+TXN0000380,CUST00150,ACC00293,2025-10-22T14:52:00,12.08,USD,purchase,fuel,QuickFuel,Seattle,US,bank_transfer,settled,0
+TXN0000503,CUST00021,ACC00083,2025-10-22T17:54:00,6.7,USD,withdrawal,healthcare,CarePlus Clinic,Seattle,US,credit_card,settled,0
+TXN0000216,CUST00084,ACC00045,2025-10-23T06:27:00,-57.91,USD,refund,electronics,Device World,Chicago,US,debit_card,reversed,0
+TXN0000459,CUST00125,ACC00247,2025-10-23T12:36:00,15.59,USD,purchase,retail,Home Essentials,Chicago,US,debit_card,settled,0
+TXN0000037,CUST00237,ACC00122,2025-10-23T21:57:00,33.41,USD,transfer,restaurants,Harbor Cafe,Dallas,US,credit_card,settled,0
+TXN0000843,CUST00053,ACC00073,2025-10-24T04:24:00,8.82,USD,purchase,travel,Skyway Airlines,Dallas,US,credit_card,reversed,0
+TXN0000857,CUST00120,ACC00254,2025-10-24T06:40:00,11.79,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,debit_card,reversed,0
+TXN0000234,CUST00048,ACC00276,2025-10-25T06:50:00,14.13,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,credit_card,pending,0
+TXN0000886,CUST00082,ACC00140,2025-10-25T18:58:00,171.86,USD,purchase,utilities,City Water,Seattle,US,debit_card,pending,0
+TXN0000267,CUST00163,ACC00156,2025-10-25T22:16:00,138.71,USD,purchase,fuel,QuickFuel,New York,US,bank_transfer,settled,0
+TXN0000353,CUST00068,ACC00339,2025-10-26T00:41:00,63.92,USD,purchase,electronics,Device World,Chicago,US,bank_transfer,reversed,0
+TXN0000398,CUST00141,ACC00255,2025-10-26T09:00:00,104.99,USD,purchase,electronics,TechHub,Dallas,US,digital_wallet,settled,0
+TXN0000129,CUST00223,ACC00027,2025-10-27T03:24:00,29.95,USD,purchase,healthcare,CarePlus Clinic,New York,US,bank_transfer,pending,0
+TXN0000246,CUST00185,ACC00141,2025-10-27T12:39:00,19.4,USD,purchase,grocery,City Foods,New York,US,bank_transfer,reversed,0
+TXN0000513,CUST00102,ACC00128,2025-10-27T19:36:00,21.35,USD,withdrawal,healthcare,Community Pharmacy,Chicago,US,digital_wallet,pending,0
+TXN0000444,CUST00037,ACC00083,2025-10-28T11:39:00,24.8,USD,transfer,healthcare,Community Pharmacy,Chicago,US,credit_card,reversed,0
+TXN0000632,CUST00170,ACC00226,2025-10-28T16:47:00,125.15,USD,purchase,travel,Central Hotels,Seattle,US,credit_card,settled,0
+TXN0000474,CUST00124,ACC00092,2025-10-28T21:41:00,106.36,USD,purchase,retail,Urban Outfitters,Chicago,US,digital_wallet,reversed,0
+TXN0000575,CUST00046,ACC00233,2025-10-29T03:28:00,62.14,USD,purchase,travel,Central Hotels,Seattle,US,credit_card,settled,0
+TXN0000743,CUST00132,ACC00233,2025-10-29T16:39:00,14.51,USD,purchase,healthcare,Health Supplies,Chicago,US,credit_card,reversed,0
+TXN0000763,CUST00225,ACC00194,2025-10-29T19:51:00,350.75,USD,purchase,electronics,Digital Store,New York,US,credit_card,pending,0
+TXN0000799,CUST00153,ACC00284,2025-10-30T16:38:00,27.89,USD,withdrawal,restaurants,Northside Grill,Seattle,US,debit_card,reversed,0
+TXN0000805,CUST00078,ACC00121,2025-10-30T21:51:00,17.56,USD,transfer,utilities,Power & Light,New York,US,debit_card,pending,0
+TXN0000826,CUST00130,ACC00066,2025-10-31T14:14:00,-115.98,USD,refund,utilities,City Water,Seattle,US,digital_wallet,settled,0
+TXN0000192,CUST00209,ACC00168,2025-11-01T11:26:00,63.84,USD,purchase,retail,Home Essentials,Atlanta,US,bank_transfer,settled,0
+TXN0000988,CUST00113,ACC00182,2025-11-01T13:20:00,65.19,USD,purchase,healthcare,CarePlus Clinic,Chicago,US,bank_transfer,settled,0
+TXN0000359,CUST00147,ACC00121,2025-11-01T20:07:00,37.44,USD,transfer,retail,Urban Outfitters,Atlanta,US,bank_transfer,pending,0
+TXN0000203,CUST00106,ACC00257,2025-11-01T22:42:00,80.08,USD,purchase,utilities,NetConnect,Dallas,US,digital_wallet,settled,0
+TXN0000115,CUST00227,ACC00213,2025-11-02T04:46:00,22.37,USD,purchase,healthcare,Health Supplies,Atlanta,US,debit_card,settled,0
+TXN0000363,CUST00038,ACC00291,2025-11-02T12:56:00,24.32,USD,purchase,grocery,City Foods,Atlanta,US,debit_card,settled,0
+TXN0000469,CUST00179,ACC00272,2025-11-03T07:59:00,15.95,USD,purchase,retail,Urban Outfitters,Atlanta,US,credit_card,settled,0
+TXN0000396,CUST00070,ACC00319,2025-11-03T11:15:00,16.96,USD,purchase,grocery,City Foods,Dallas,US,credit_card,reversed,0
+TXN0000059,CUST00121,ACC00010,2025-11-03T23:22:00,37.76,USD,purchase,retail,Home Essentials,Dallas,US,debit_card,settled,0
+TXN0000023,CUST00064,ACC00039,2025-11-04T04:54:00,29.01,USD,purchase,utilities,City Water,Chicago,US,debit_card,pending,0
+TXN0000012,CUST00098,ACC00306,2025-11-04T09:46:00,17.02,USD,purchase,travel,Skyway Airlines,Chicago,US,bank_transfer,pending,0
+TXN0000163,CUST00061,ACC00155,2025-11-05T04:54:00,86.37,USD,purchase,electronics,TechHub,Chicago,US,debit_card,settled,0
+TXN0000034,CUST00001,ACC00171,2025-11-05T10:31:00,-9.41,USD,refund,grocery,Fresh Market,New York,US,bank_transfer,settled,0
+TXN0000958,CUST00205,ACC00348,2025-11-05T12:40:00,42.81,USD,purchase,electronics,TechHub,Seattle,US,credit_card,settled,0
+TXN0000991,CUST00123,ACC00255,2025-11-05T17:39:00,33.39,USD,purchase,utilities,NetConnect,New York,US,debit_card,settled,0
+TXN0000622,CUST00099,ACC00182,2025-11-05T20:06:00,43.44,USD,purchase,utilities,Power & Light,Atlanta,US,credit_card,pending,0
+TXN0000172,CUST00211,ACC00093,2025-11-06T02:40:00,11.99,USD,purchase,fuel,Metro Petroleum,New York,US,bank_transfer,reversed,0
+TXN0000992,CUST00063,ACC00339,2025-11-06T11:02:00,3.52,USD,purchase,electronics,Digital Store,New York,US,debit_card,settled,0
+TXN0000473,CUST00067,ACC00275,2025-11-07T06:08:00,5.96,USD,purchase,restaurants,Northside Grill,Chicago,US,bank_transfer,settled,0
+TXN0000275,CUST00205,ACC00208,2025-11-07T11:20:00,10.16,USD,transfer,healthcare,Health Supplies,Atlanta,US,credit_card,settled,0
+TXN0000051,CUST00115,ACC00082,2025-11-07T17:50:00,37.49,USD,withdrawal,utilities,NetConnect,Atlanta,US,digital_wallet,reversed,0
+TXN0000035,CUST00020,ACC00077,2025-11-08T10:22:00,61.72,USD,purchase,utilities,NetConnect,Atlanta,US,debit_card,settled,0
+TXN0000672,CUST00064,ACC00168,2025-11-08T17:46:00,3.41,USD,purchase,fuel,Roadside Gas,New York,US,credit_card,settled,0
+TXN0000288,CUST00201,ACC00106,2025-11-08T18:45:00,48.83,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,debit_card,settled,0
+TXN0000064,CUST00130,ACC00332,2025-11-08T22:26:00,8.2,USD,purchase,grocery,Green Grocer,Dallas,US,debit_card,settled,0
+TXN0000946,CUST00081,ACC00123,2025-11-09T17:14:00,9.3,USD,purchase,utilities,City Water,Dallas,US,digital_wallet,settled,0
+TXN0000879,CUST00236,ACC00024,2025-11-09T18:45:00,26.67,USD,transfer,healthcare,Health Supplies,Atlanta,US,credit_card,settled,0
+TXN0000195,CUST00187,ACC00188,2025-11-10T19:00:00,32.24,USD,purchase,grocery,Green Grocer,New York,US,bank_transfer,settled,0
+TXN0000352,CUST00156,ACC00223,2025-11-11T01:55:00,118.55,USD,transfer,utilities,Power & Light,New York,US,debit_card,settled,0
+TXN0000618,CUST00161,ACC00163,2025-11-11T08:46:00,56.02,USD,purchase,grocery,City Foods,Chicago,US,digital_wallet,pending,0
+TXN0000128,CUST00208,ACC00067,2025-11-11T11:35:00,15.39,USD,purchase,restaurants,Pasta House,New York,US,debit_card,settled,0
+TXN0000065,CUST00182,ACC00079,2025-11-12T16:22:00,61.1,USD,transfer,utilities,City Water,New York,US,credit_card,pending,0
+TXN0000388,CUST00110,ACC00245,2025-11-12T19:39:00,177.0,USD,purchase,restaurants,Northside Grill,Chicago,US,debit_card,pending,0
+TXN0000250,CUST00145,ACC00049,2025-11-12T23:07:00,40.65,USD,purchase,restaurants,Pasta House,Seattle,US,debit_card,settled,0
+TXN0000545,CUST00223,ACC00117,2025-11-13T06:01:00,2.29,USD,purchase,healthcare,Health Supplies,Dallas,US,debit_card,settled,0
+TXN0000174,CUST00020,ACC00344,2025-11-13T17:08:00,38.14,USD,purchase,grocery,City Foods,Dallas,US,digital_wallet,settled,0
+TXN0000361,CUST00214,ACC00305,2025-11-14T01:02:00,45.57,USD,purchase,retail,Urban Outfitters,New York,US,bank_transfer,settled,0
+TXN0000141,CUST00021,ACC00203,2025-11-14T05:59:00,34.04,USD,purchase,restaurants,Northside Grill,Chicago,US,bank_transfer,reversed,0
+TXN0000085,CUST00249,ACC00047,2025-11-14T09:38:00,12.08,USD,purchase,travel,Skyway Airlines,Atlanta,US,bank_transfer,pending,0
+TXN0000449,CUST00035,ACC00348,2025-11-14T13:49:00,16.22,USD,purchase,electronics,Digital Store,Chicago,US,bank_transfer,settled,0
+TXN0000018,CUST00031,ACC00127,2025-11-16T00:21:00,37.12,USD,withdrawal,retail,Everyday Goods,Dallas,US,debit_card,pending,0
+TXN0000089,CUST00032,ACC00015,2025-11-16T00:38:00,15.96,USD,withdrawal,travel,Central Hotels,Dallas,US,credit_card,pending,0
+TXN0000405,CUST00200,ACC00184,2025-11-16T01:27:00,17.29,USD,purchase,utilities,NetConnect,Atlanta,US,debit_card,pending,0
+TXN0000862,CUST00149,ACC00064,2025-11-16T07:51:00,5.96,USD,purchase,electronics,TechHub,New York,US,debit_card,pending,0
+TXN0000811,CUST00063,ACC00243,2025-11-16T17:58:00,22.49,USD,transfer,restaurants,Northside Grill,Chicago,US,bank_transfer,settled,0
+TXN0000145,CUST00162,ACC00156,2025-11-17T05:24:00,35.16,USD,purchase,healthcare,CarePlus Clinic,Chicago,US,debit_card,pending,0
+TXN0000075,CUST00065,ACC00245,2025-11-17T17:45:00,1.97,USD,purchase,utilities,Power & Light,Seattle,US,debit_card,settled,0
+TXN0000108,CUST00188,ACC00068,2025-11-17T23:56:00,32.28,USD,purchase,grocery,Fresh Market,Dallas,US,bank_transfer,settled,0
+TXN0000777,CUST00125,ACC00235,2025-11-18T12:06:00,13.1,USD,purchase,utilities,City Water,New York,US,debit_card,reversed,0
+TXN0000368,CUST00190,ACC00249,2025-11-18T15:33:00,27.46,USD,purchase,restaurants,Pasta House,Chicago,US,bank_transfer,pending,0
+TXN0000046,CUST00131,ACC00243,2025-11-18T16:46:00,13.2,USD,purchase,healthcare,Health Supplies,Seattle,US,credit_card,settled,0
+TXN0000712,CUST00134,ACC00176,2025-11-18T19:25:00,24.61,USD,withdrawal,healthcare,Community Pharmacy,Chicago,US,bank_transfer,reversed,0
+TXN0000135,CUST00194,ACC00263,2025-11-18T21:16:00,10.81,USD,purchase,retail,Everyday Goods,Seattle,US,bank_transfer,settled,0
+TXN0000552,CUST00012,ACC00120,2025-11-19T00:10:00,23.2,USD,purchase,travel,Metro Transit,Dallas,US,bank_transfer,pending,0
+TXN0000699,CUST00187,ACC00213,2025-11-19T05:19:00,68.31,USD,purchase,utilities,Power & Light,Seattle,US,debit_card,pending,0
+TXN0000538,CUST00141,ACC00167,2025-11-19T14:11:00,18.46,USD,transfer,healthcare,CarePlus Clinic,Chicago,US,digital_wallet,settled,0
+TXN0000427,CUST00194,ACC00302,2025-11-19T15:06:00,-10.33,USD,refund,electronics,Digital Store,Atlanta,US,credit_card,settled,0
+TXN0000603,CUST00121,ACC00346,2025-11-20T01:18:00,64.69,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,debit_card,settled,0
+TXN0000100,CUST00232,ACC00015,2025-11-20T01:50:00,21.44,USD,purchase,restaurants,Harbor Cafe,New York,US,bank_transfer,settled,0
+TXN0000923,CUST00035,ACC00143,2025-11-20T02:40:00,30.97,USD,purchase,grocery,Green Grocer,Chicago,US,debit_card,settled,0
+TXN0000156,CUST00060,ACC00274,2025-11-20T10:56:00,13.27,USD,purchase,healthcare,Community Pharmacy,Chicago,US,bank_transfer,pending,0
+TXN0000395,CUST00065,ACC00243,2025-11-20T12:57:00,88.19,USD,purchase,restaurants,Pasta House,Seattle,US,credit_card,reversed,0
+TXN0000223,CUST00034,ACC00263,2025-11-21T09:22:00,-53.85,USD,refund,utilities,City Water,New York,US,digital_wallet,pending,0
+TXN0000122,CUST00152,ACC00056,2025-11-23T10:10:00,10.92,USD,purchase,restaurants,Northside Grill,Seattle,US,credit_card,reversed,0
+TXN0000691,CUST00137,ACC00155,2025-11-23T12:51:00,18.9,USD,purchase,travel,Metro Transit,Dallas,US,debit_card,settled,0
+TXN0000428,CUST00048,ACC00089,2025-11-23T19:36:00,53.84,USD,purchase,electronics,Digital Store,Dallas,US,debit_card,settled,0
+TXN0000144,CUST00165,ACC00326,2025-11-23T21:11:00,32.61,USD,purchase,utilities,NetConnect,Seattle,US,bank_transfer,reversed,0
+TXN0000003,CUST00195,ACC00082,2025-11-24T02:29:00,51.82,USD,purchase,retail,Home Essentials,Chicago,US,digital_wallet,settled,0
+TXN0000651,CUST00010,ACC00174,2025-11-24T04:12:00,172.25,USD,transfer,fuel,QuickFuel,Seattle,US,bank_transfer,settled,0
+TXN0000798,CUST00076,ACC00292,2025-11-24T07:51:00,53.6,USD,purchase,utilities,City Water,New York,US,debit_card,settled,0
+TXN0000554,CUST00054,ACC00276,2025-11-24T17:23:00,34.97,USD,purchase,restaurants,Harbor Cafe,Dallas,US,credit_card,settled,0
+TXN0000907,CUST00130,ACC00023,2025-11-25T08:40:00,6.96,USD,purchase,healthcare,CarePlus Clinic,Seattle,US,debit_card,settled,0
+TXN0000160,CUST00107,ACC00028,2025-11-25T12:01:00,52.28,USD,withdrawal,restaurants,Northside Grill,Chicago,US,bank_transfer,settled,0
+TXN0000126,CUST00087,ACC00233,2025-11-25T19:29:00,242.37,USD,withdrawal,electronics,Device World,Seattle,US,digital_wallet,pending,0
+TXN0000844,CUST00247,ACC00318,2025-11-25T22:45:00,39.74,USD,purchase,retail,Urban Outfitters,Atlanta,US,credit_card,pending,1
+TXN0000682,CUST00213,ACC00063,2025-11-26T10:26:00,8.77,USD,purchase,healthcare,CarePlus Clinic,Dallas,US,bank_transfer,reversed,0
+TXN0000414,CUST00001,ACC00175,2025-11-26T12:34:00,97.29,USD,purchase,utilities,City Water,Dallas,US,bank_transfer,settled,0
+TXN0000782,CUST00034,ACC00109,2025-11-26T22:31:00,7.13,USD,purchase,grocery,Fresh Market,Atlanta,US,bank_transfer,reversed,0
+TXN0000641,CUST00197,ACC00219,2025-11-27T04:30:00,19.38,USD,transfer,utilities,NetConnect,New York,US,bank_transfer,settled,0
+TXN0000189,CUST00041,ACC00226,2025-11-27T06:15:00,11.63,USD,purchase,retail,Urban Outfitters,Dallas,US,digital_wallet,settled,0
+TXN0000080,CUST00237,ACC00136,2025-11-27T14:46:00,3.72,USD,purchase,fuel,Metro Petroleum,Dallas,US,credit_card,settled,0
+TXN0000872,CUST00127,ACC00113,2025-11-27T19:30:00,12.2,USD,withdrawal,travel,Metro Transit,New York,US,credit_card,settled,0
+TXN0000220,CUST00096,ACC00213,2025-11-28T07:19:00,29.43,USD,purchase,utilities,NetConnect,Chicago,US,digital_wallet,reversed,0
+TXN0000668,CUST00035,ACC00235,2025-11-28T07:32:00,122.0,USD,purchase,travel,Central Hotels,Chicago,US,credit_card,settled,0
+TXN0000313,CUST00128,ACC00291,2025-11-28T11:09:00,61.89,USD,purchase,restaurants,Harbor Cafe,Seattle,US,bank_transfer,settled,0
+TXN0000827,CUST00242,ACC00287,2025-11-28T15:15:00,131.57,USD,purchase,restaurants,Northside Grill,Chicago,US,debit_card,settled,0
+TXN0000606,CUST00121,ACC00119,2025-11-28T17:54:00,177.11,USD,purchase,utilities,Power & Light,New York,US,credit_card,pending,0
+TXN0000097,CUST00105,ACC00336,2025-11-29T17:23:00,36.46,USD,purchase,utilities,Power & Light,New York,US,debit_card,settled,0
+TXN0000417,CUST00035,ACC00256,2025-11-30T01:25:00,127.89,USD,purchase,restaurants,Harbor Cafe,Seattle,US,debit_card,reversed,0
+TXN0000169,CUST00012,ACC00103,2025-11-30T06:31:00,21.21,USD,purchase,travel,Metro Transit,New York,US,bank_transfer,settled,0
+TXN0000692,CUST00002,ACC00280,2025-11-30T12:50:00,86.43,USD,transfer,utilities,NetConnect,Chicago,US,bank_transfer,settled,0
+TXN0000030,CUST00026,ACC00038,2025-11-30T17:07:00,20.25,USD,purchase,restaurants,Pasta House,New York,US,credit_card,reversed,0
+TXN0000322,CUST00149,ACC00049,2025-11-30T20:08:00,49.16,USD,transfer,retail,Home Essentials,Dallas,US,credit_card,settled,0
+TXN0000010,CUST00064,ACC00288,2025-12-01T03:01:00,46.64,USD,purchase,utilities,NetConnect,Seattle,US,bank_transfer,settled,0
+TXN0000731,CUST00143,ACC00338,2025-12-01T17:04:00,32.98,USD,purchase,retail,Urban Outfitters,Seattle,US,credit_card,settled,0
+TXN0000959,CUST00215,ACC00113,2025-12-02T09:37:00,47.93,USD,purchase,grocery,Green Grocer,Atlanta,US,digital_wallet,settled,0
+TXN0000243,CUST00044,ACC00072,2025-12-02T13:34:00,44.92,USD,purchase,utilities,NetConnect,Seattle,US,digital_wallet,settled,0
+TXN0000737,CUST00146,ACC00264,2025-12-02T14:58:00,35.02,USD,purchase,healthcare,CarePlus Clinic,New York,US,bank_transfer,pending,0
+TXN0000832,CUST00039,ACC00167,2025-12-02T15:26:00,10.82,USD,purchase,travel,Metro Transit,Chicago,US,digital_wallet,pending,0
+TXN0000146,CUST00095,ACC00147,2025-12-03T05:32:00,59.25,USD,purchase,restaurants,Harbor Cafe,Dallas,US,debit_card,settled,0
+TXN0000903,CUST00074,ACC00331,2025-12-03T22:11:00,27.9,USD,purchase,utilities,City Water,Seattle,US,bank_transfer,settled,0
+TXN0000612,CUST00211,ACC00228,2025-12-04T01:54:00,25.65,USD,purchase,utilities,Power & Light,New York,US,bank_transfer,settled,0
+TXN0000228,CUST00109,ACC00273,2025-12-04T03:34:00,9.23,USD,purchase,grocery,Green Grocer,Dallas,US,credit_card,reversed,0
+TXN0000235,CUST00106,ACC00214,2025-12-04T03:57:00,231.35,USD,transfer,fuel,Metro Petroleum,Chicago,US,credit_card,reversed,0
+TXN0000969,CUST00071,ACC00324,2025-12-04T15:17:00,26.05,USD,withdrawal,retail,Home Essentials,New York,US,digital_wallet,pending,0
+TXN0000909,CUST00022,ACC00281,2025-12-05T01:16:00,51.7,USD,purchase,travel,Central Hotels,Dallas,US,credit_card,settled,0
+TXN0000067,CUST00087,ACC00015,2025-12-05T09:22:00,25.23,USD,purchase,utilities,City Water,Chicago,US,bank_transfer,pending,0
+TXN0000054,CUST00214,ACC00216,2025-12-06T06:37:00,49.98,USD,purchase,retail,Urban Outfitters,Dallas,US,debit_card,settled,0
+TXN0000325,CUST00138,ACC00184,2025-12-06T08:54:00,9.91,USD,purchase,travel,Metro Transit,Seattle,US,digital_wallet,settled,0
+TXN0000952,CUST00245,ACC00060,2025-12-06T21:58:00,38.55,USD,purchase,restaurants,Northside Grill,Dallas,US,credit_card,pending,0
+TXN0000193,CUST00128,ACC00012,2025-12-06T22:11:00,33.59,USD,purchase,travel,Metro Transit,Seattle,US,digital_wallet,settled,0
+TXN0000788,CUST00077,ACC00077,2025-12-07T22:43:00,42.91,USD,purchase,restaurants,Harbor Cafe,Dallas,US,bank_transfer,pending,0
+TXN0000803,CUST00186,ACC00200,2025-12-08T03:03:00,29.85,USD,purchase,healthcare,CarePlus Clinic,Atlanta,US,bank_transfer,settled,0
+TXN0000409,CUST00020,ACC00252,2025-12-08T17:25:00,30.58,USD,withdrawal,travel,Skyway Airlines,Atlanta,US,credit_card,settled,0
+TXN0000869,CUST00075,ACC00189,2025-12-08T21:31:00,52.38,USD,purchase,travel,Metro Transit,Chicago,US,credit_card,settled,0
+TXN0000457,CUST00011,ACC00333,2025-12-09T00:09:00,24.36,USD,transfer,healthcare,CarePlus Clinic,Seattle,US,debit_card,settled,0
+TXN0000384,CUST00149,ACC00318,2025-12-09T15:13:00,16.03,USD,purchase,utilities,Power & Light,New York,US,digital_wallet,reversed,0
+TXN0000910,CUST00044,ACC00010,2025-12-09T19:36:00,-235.86,USD,refund,utilities,NetConnect,Chicago,US,debit_card,settled,0
+TXN0000585,CUST00085,ACC00270,2025-12-09T20:07:00,32.52,USD,purchase,restaurants,Northside Grill,Dallas,US,credit_card,settled,0
+TXN0000356,CUST00024,ACC00329,2025-12-09T22:21:00,9.95,USD,purchase,fuel,Metro Petroleum,Seattle,US,digital_wallet,settled,0
+TXN0000628,CUST00014,ACC00337,2025-12-11T13:04:00,23.91,USD,purchase,fuel,Roadside Gas,New York,US,debit_card,reversed,0
+TXN0000506,CUST00198,ACC00204,2025-12-11T13:31:00,16.66,USD,purchase,restaurants,Pasta House,New York,US,debit_card,settled,0
+TXN0000801,CUST00241,ACC00331,2025-12-11T16:10:00,69.29,USD,purchase,fuel,Roadside Gas,Seattle,US,digital_wallet,reversed,0
+TXN0000170,CUST00074,ACC00183,2025-12-11T17:15:00,12.76,USD,purchase,retail,Everyday Goods,Atlanta,US,bank_transfer,settled,0
+TXN0000963,CUST00101,ACC00037,2025-12-11T17:38:00,33.0,USD,transfer,healthcare,Health Supplies,Seattle,US,bank_transfer,pending,0
+TXN0000797,CUST00043,ACC00079,2025-12-12T03:33:00,26.06,USD,purchase,utilities,NetConnect,Chicago,US,digital_wallet,settled,0
+TXN0000372,CUST00089,ACC00084,2025-12-12T13:55:00,44.61,USD,purchase,utilities,City Water,Chicago,US,debit_card,settled,0
+TXN0000201,CUST00148,ACC00117,2025-12-12T14:03:00,38.78,USD,purchase,fuel,Metro Petroleum,New York,US,debit_card,reversed,0
+TXN0000048,CUST00117,ACC00213,2025-12-12T23:36:00,78.03,USD,purchase,grocery,City Foods,Chicago,US,credit_card,settled,0
+TXN0000524,CUST00096,ACC00046,2025-12-13T01:57:00,47.97,USD,purchase,grocery,Fresh Market,Atlanta,US,credit_card,settled,0
+TXN0000211,CUST00194,ACC00148,2025-12-13T09:27:00,47.99,USD,purchase,travel,Skyway Airlines,Seattle,US,bank_transfer,settled,0
+TXN0000381,CUST00130,ACC00154,2025-12-13T10:04:00,11.71,USD,transfer,electronics,TechHub,Atlanta,US,credit_card,settled,0
+TXN0000726,CUST00125,ACC00262,2025-12-13T11:40:00,22.56,USD,purchase,retail,Urban Outfitters,Dallas,US,credit_card,pending,0
+TXN0000849,CUST00173,ACC00089,2025-12-13T23:56:00,14.33,USD,purchase,grocery,Green Grocer,Atlanta,US,digital_wallet,settled,0
+TXN0000762,CUST00067,ACC00089,2025-12-15T08:02:00,30.63,USD,withdrawal,healthcare,Health Supplies,Seattle,US,bank_transfer,settled,0
+TXN0000831,CUST00116,ACC00173,2025-12-17T09:10:00,7.07,USD,purchase,grocery,Green Grocer,Seattle,US,digital_wallet,reversed,0
+TXN0000522,CUST00093,ACC00027,2025-12-17T10:05:00,46.68,USD,purchase,restaurants,Pasta House,Dallas,US,credit_card,settled,0
+TXN0000510,CUST00114,ACC00158,2025-12-17T17:28:00,11.81,USD,purchase,fuel,Roadside Gas,Dallas,US,digital_wallet,settled,0
+TXN0000647,CUST00240,ACC00184,2025-12-18T00:43:00,1.83,USD,purchase,grocery,Green Grocer,Seattle,US,bank_transfer,reversed,0
+TXN0000130,CUST00090,ACC00285,2025-12-18T02:52:00,16.39,USD,purchase,electronics,Device World,Chicago,US,debit_card,settled,0
+TXN0000273,CUST00113,ACC00232,2025-12-18T15:44:00,86.76,USD,purchase,electronics,Device World,Atlanta,US,debit_card,settled,0
+TXN0000418,CUST00178,ACC00297,2025-12-18T15:50:00,30.44,USD,transfer,retail,Everyday Goods,Atlanta,US,credit_card,settled,0
+TXN0000555,CUST00178,ACC00343,2025-12-18T17:29:00,38.0,USD,purchase,fuel,QuickFuel,Atlanta,US,digital_wallet,settled,0
+TXN0000066,CUST00069,ACC00166,2025-12-19T01:43:00,105.24,USD,purchase,fuel,QuickFuel,Atlanta,US,debit_card,reversed,0
+TXN0000094,CUST00196,ACC00279,2025-12-19T16:28:00,19.54,USD,purchase,utilities,City Water,Atlanta,US,digital_wallet,reversed,0
+TXN0000950,CUST00204,ACC00042,2025-12-19T19:52:00,34.58,USD,purchase,electronics,Device World,Atlanta,US,digital_wallet,reversed,0
+TXN0000052,CUST00113,ACC00040,2025-12-19T20:56:00,18.45,USD,purchase,electronics,Digital Store,Dallas,US,bank_transfer,settled,0
+TXN0000020,CUST00186,ACC00293,2025-12-20T11:13:00,6.6,USD,purchase,electronics,Digital Store,Dallas,US,digital_wallet,settled,0
+TXN0000056,CUST00172,ACC00348,2025-12-20T15:12:00,68.81,USD,purchase,fuel,Roadside Gas,Seattle,US,credit_card,settled,0
+TXN0000749,CUST00221,ACC00043,2025-12-20T18:42:00,-14.71,USD,refund,travel,Skyway Airlines,New York,US,bank_transfer,settled,0
+TXN0000136,CUST00012,ACC00113,2025-12-21T08:31:00,127.73,USD,purchase,fuel,Roadside Gas,Atlanta,US,debit_card,settled,1
+TXN0000794,CUST00093,ACC00345,2025-12-21T10:05:00,7.56,USD,purchase,retail,Home Essentials,Atlanta,US,digital_wallet,reversed,0
+TXN0000456,CUST00095,ACC00120,2025-12-22T02:09:00,12.27,USD,purchase,grocery,Fresh Market,Chicago,US,credit_card,settled,0
+TXN0000800,CUST00136,ACC00010,2025-12-22T06:41:00,27.93,USD,purchase,utilities,City Water,Atlanta,US,bank_transfer,settled,0
+TXN0000406,CUST00113,ACC00024,2025-12-22T10:33:00,50.54,USD,purchase,travel,Metro Transit,Seattle,US,bank_transfer,pending,0
+TXN0000291,CUST00161,ACC00213,2025-12-23T09:54:00,22.02,USD,purchase,electronics,Device World,Seattle,US,digital_wallet,settled,0
+TXN0000570,CUST00228,ACC00127,2025-12-23T18:22:00,19.08,USD,purchase,utilities,City Water,Atlanta,US,digital_wallet,pending,0
+TXN0000392,CUST00043,ACC00207,2025-12-23T22:29:00,44.34,USD,purchase,travel,Metro Transit,Dallas,US,credit_card,settled,0
+TXN0000702,CUST00214,ACC00300,2025-12-24T05:36:00,77.4,USD,purchase,fuel,Roadside Gas,Atlanta,US,digital_wallet,settled,0
+TXN0000255,CUST00241,ACC00193,2025-12-24T05:55:00,5.93,USD,purchase,fuel,Roadside Gas,Seattle,US,credit_card,reversed,0
+TXN0000354,CUST00001,ACC00219,2025-12-24T11:56:00,23.11,USD,purchase,grocery,Fresh Market,Seattle,US,bank_transfer,settled,0
+TXN0000516,CUST00039,ACC00026,2025-12-25T06:15:00,57.71,USD,purchase,fuel,Metro Petroleum,Atlanta,US,debit_card,settled,0
+TXN0000321,CUST00183,ACC00144,2025-12-25T06:49:00,29.87,USD,transfer,electronics,TechHub,Seattle,US,debit_card,settled,0
+TXN0000729,CUST00076,ACC00339,2025-12-25T09:36:00,-15.8,USD,refund,restaurants,Northside Grill,New York,US,digital_wallet,settled,0
+TXN0000906,CUST00032,ACC00189,2025-12-26T08:19:00,28.4,USD,purchase,restaurants,Harbor Cafe,Chicago,US,debit_card,reversed,0
+TXN0000853,CUST00072,ACC00253,2025-12-26T13:55:00,14.33,USD,transfer,electronics,Digital Store,Chicago,US,credit_card,settled,1
+TXN0000766,CUST00049,ACC00137,2025-12-26T19:52:00,13.42,USD,purchase,retail,Urban Outfitters,Seattle,US,digital_wallet,settled,0
+TXN0000479,CUST00218,ACC00337,2025-12-26T23:42:00,589.27,USD,purchase,grocery,City Foods,Chicago,US,bank_transfer,settled,0
+TXN0000283,CUST00107,ACC00228,2025-12-27T10:13:00,132.43,USD,purchase,electronics,Device World,Seattle,US,credit_card,pending,0
+TXN0000213,CUST00225,ACC00020,2025-12-27T17:27:00,70.39,USD,purchase,grocery,Fresh Market,Seattle,US,bank_transfer,settled,0
+TXN0000233,CUST00242,ACC00330,2025-12-27T21:36:00,28.38,USD,purchase,retail,Home Essentials,Atlanta,US,digital_wallet,settled,0
+TXN0000587,CUST00127,ACC00093,2025-12-28T11:09:00,17.13,USD,purchase,healthcare,Health Supplies,Chicago,US,credit_card,pending,0
+TXN0000240,CUST00195,ACC00164,2025-12-29T02:33:00,63.59,USD,purchase,healthcare,Community Pharmacy,Atlanta,US,bank_transfer,pending,0
+TXN0000623,CUST00183,ACC00257,2025-12-29T17:55:00,178.04,USD,withdrawal,grocery,Green Grocer,Atlanta,US,digital_wallet,settled,0
+TXN0000810,CUST00040,ACC00332,2025-12-29T22:00:00,11.08,USD,purchase,fuel,Roadside Gas,Seattle,US,bank_transfer,settled,0
+TXN0000411,CUST00128,ACC00335,2025-12-29T23:09:00,55.24,USD,purchase,utilities,Power & Light,New York,US,debit_card,settled,0
+TXN0000744,CUST00069,ACC00327,2025-12-30T12:12:00,27.83,USD,purchase,travel,Central Hotels,Atlanta,US,digital_wallet,pending,0
+TXN0000597,CUST00237,ACC00248,2025-12-31T03:04:00,20.7,USD,purchase,grocery,City Foods,Seattle,US,bank_transfer,settled,0
