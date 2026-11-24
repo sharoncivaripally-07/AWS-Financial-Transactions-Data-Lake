@@ -45,7 +45,7 @@ Raw Financial Data (CSV)
       v       v
   Parquet     CSV
 ```
-![Project Architecture](project-architecture.png)
+![Project Architecture](./project-architecture.png)
 
 ## Data Processing Results
 
