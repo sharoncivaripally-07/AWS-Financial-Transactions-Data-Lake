@@ -1,63 +1,130 @@
 # AWS Financial Transactions Data Lake
 
-An end-to-end portfolio project that demonstrates a governed financial transaction data lake using AWS.
+## Project Overview
 
-> **Data safety:** The included dataset is entirely synthetic. It contains no real customer, bank-account, or payment-card information. Do not upload real financial or personally identifiable information to this public repository.
+This project demonstrates an end-to-end financial transaction data processing pipeline using Python, Pandas, and Parquet.
 
-## Business scenario
-A fictional financial services company needs to ingest transaction records, validate and transform them, store analytics-ready data efficiently, and support SQL-based reporting.
+The pipeline processes raw financial transaction data, performs data cleaning and validation, separates valid and rejected records, and stores the processed data in structured formats for analytics.
 
-## Target architecture
-1. **Raw zone (Amazon S3):** land source CSV files without changing the original records.
-2. **Catalog (AWS Glue Data Catalog):** maintain table and schema metadata.
-3. **ETL (AWS Glue + PySpark):** validate records, standardize types, remove duplicates, and derive reporting fields.
-4. **Curated zone (Amazon S3 + Parquet):** store cleaned data, partitioned by transaction date.
-5. **Analytics (Amazon Athena):** query curated transaction data.
-6. **Warehouse (Amazon Redshift):** load dimensional and fact tables for BI workloads.
-7. **Orchestration (AWS Step Functions + Lambda):** coordinate and trigger pipeline stages.
-8. **Observability (Amazon CloudWatch):** capture logs, metrics, and failures.
+## Project Objectives
 
-## Repository structure
+- Build a Python-based ETL pipeline.
+- Process raw financial transaction data.
+- Perform data quality checks.
+- Identify and remove duplicate records.
+- Separate valid and rejected transactions.
+- Store clean data in Parquet format.
+
+## Technologies Used
+
+- Python 3
+- Pandas
+- PyArrow
+- CSV
+- Apache Parquet
+- Git and GitHub
+
+## Project Architecture
+
 ```text
-aws-financial-data-lake/
+Raw Financial Data (CSV)
+          |
+          v
+    Python ETL Pipeline
+          |
+          v
+   Data Cleaning & Validation
+          |
+          v
+     Data Quality Checks
+          |
+       /     \
+      v       v
+ Valid Data  Rejected Data
+      |       |
+      v       v
+  Parquet     CSV
+```
+
+## Data Processing Results
+
+The pipeline processed 1,000 financial transaction records.
+
+| Metric | Result |
+|---|---:|
+| Total records received | 1,000 |
+| Valid records | 942 |
+| Rejected records | 58 |
+
+## Data Quality Checks
+
+The pipeline performs the following checks:
+
+- Validates missing values.
+- Checks transaction amount values.
+- Validates timestamp formats.
+- Identifies duplicate records.
+- Separates invalid records for review.
+
+## Project Structure
+
+```text
+AWS-Financial-Transactions-Data-Lake/
+│
 ├── data/
-│   └── raw/
-│       └── financial_transactions.csv
+│   ├── raw/
+│   │   └── financial_transactions.csv
+│   │
+│   └── processed/
+│       ├── clean_transactions.parquet
+│       └── rejected_transactions.csv
+│
 ├── src/
-│   ├── ingestion/
-│   │   └── generate_data.py
 │   └── transformation/
-├── sql/
-│   └── athena/
-├── infrastructure/
-├── docs/
-└── README.md
+│       └── clean_transactions.py
+│
+├── generate_data.py
+├── data-quality-rules.md
+├── README.md
+└── .gitignore
 ```
 
-## Dataset fields
-`transaction_id`, `customer_id`, `account_id`, `transaction_timestamp`, `amount`, `currency`, `transaction_type`, `merchant_category`, `merchant_name`, `city`, `country`, `payment_method`, `status`, `fraud_flag`.
+## How to Run the Project
 
-## Local setup
+1. Clone the repository:
+
 ```bash
-python -m pip install pandas numpy
-python src/ingestion/generate_data.py
+git clone https://github.com/sharoncivaripally-07/AWS-Financial-Transactions-Data-Lake.git
 ```
 
-The included sample file contains 1,000 synthetic transactions. The generator can recreate it.
+2. Navigate to the project folder:
 
-## Planned milestones
-- [ ] Milestone 1: inspect the sample data and define data quality rules.
-- [ ] Milestone 2: create an S3 bucket and upload the raw CSV to a raw zone.
-- [ ] Milestone 3: create a Glue database, crawler, and Data Catalog table.
-- [ ] Milestone 4: write a PySpark Glue ETL job to validate, deduplicate, and convert CSV to partitioned Parquet.
-- [ ] Milestone 5: query curated data with Athena.
-- [ ] Milestone 6: model transaction facts and dimensions and load Redshift.
-- [ ] Milestone 7: orchestrate the workflow and add monitoring.
-- [ ] Milestone 8: document architecture, tests, sample queries, and screenshots.
+```bash
+cd AWS-Financial-Transactions-Data-Lake
+```
 
-## Important design notes
-- Keep raw data immutable; write transformed output to a separate curated prefix.
-- Use least-privilege IAM roles and encryption for S3 data.
-- Partition curated data by transaction year/month/day where appropriate.
-- Never commit AWS access keys, secrets, `.env` files, or real customer data.
-- AWS resources can incur charges. Create only the resources needed for each milestone and delete them when finished.
+3. Install dependencies:
+
+```bash
+pip install pandas pyarrow
+```
+
+4. Run the ETL pipeline:
+
+```bash
+python3 src/transformation/clean_transactions.py
+```
+
+## Future Enhancements
+
+- Integrate AWS S3 for cloud storage.
+- Use AWS Glue for scalable ETL processing.
+- Query processed data using Amazon Athena.
+- Add automated data quality testing.
+- Implement workflow orchestration using AWS Step Functions.
+
+## Author
+
+**Sharon Civaripally**
+
+Data Engineer | Python | SQL | AWS | ETL | Data Pipelines
