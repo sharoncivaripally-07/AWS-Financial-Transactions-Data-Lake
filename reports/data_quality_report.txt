@@ -1,0 +1,23 @@
+
+FINANCIAL TRANSACTIONS DATA QUALITY REPORT
+============================================
+
+OVERALL SUMMARY
+
+Total Transactions: 1000
+Valid Transactions: 942
+Rejected Transactions: 58
+
+Data Quality Rate: 94.20%
+Rejection Rate: 5.80%
+
+REJECTION REASON ANALYSIS
+
+Invalid or Non-Positive Amounts: 58
+Missing Transaction IDs: 0
+Missing Customer IDs: 0
+Missing Account IDs: 0
+Missing Timestamps: 0
+
+============================================
+REPORT GENERATED SUCCESSFULLY
