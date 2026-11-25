@@ -1,13 +1,41 @@
 
 import pandas as pd
+import logging
 from pathlib import Path
 
 # 1. Find the main project folder
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-# 2. Define input and output locations
+# 2. Define input, output, and log locations
 INPUT_FILE = PROJECT_ROOT / "data" / "raw" / "financial_transactions.csv"
 OUTPUT_FOLDER = PROJECT_ROOT / "data" / "processed"
+LOG_FOLDER = PROJECT_ROOT / "logs"
+LOG_FILE = LOG_FOLDER / "pipeline.log"
+
+# 3. Configure pipeline logging
+logger = logging.getLogger("financial_transactions_pipeline")
+
+
+def configure_logging():
+    """Configure logging to save messages in a file and display them."""
+    LOG_FOLDER.mkdir(parents=True, exist_ok=True)
+
+    if not logger.handlers:
+        logger.setLevel(logging.INFO)
+        logger.propagate = False
+
+        formatter = logging.Formatter(
+            "%(asctime)s - %(levelname)s - %(message)s"
+        )
+
+        file_handler = logging.FileHandler(LOG_FILE, encoding="utf-8")
+        console_handler = logging.StreamHandler()
+
+        file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+
+        logger.addHandler(file_handler)
+        logger.addHandler(console_handler)
 
 
 def read_transactions(input_file=INPUT_FILE):
@@ -17,6 +45,7 @@ def read_transactions(input_file=INPUT_FILE):
     df = pd.read_csv(input_file)
 
     print(f"Total records received: {len(df)}")
+    logger.info("Total records received: %s", len(df))
 
     return df
 
@@ -57,6 +86,8 @@ def save_clean_transactions(df, output_folder=OUTPUT_FOLDER):
         index=False
     )
 
+    logger.info("Clean transactions saved successfully.")
+
 
 def save_rejected_transactions(df, output_folder=OUTPUT_FOLDER):
     """Save rejected transactions as a CSV file."""
@@ -67,26 +98,41 @@ def save_rejected_transactions(df, output_folder=OUTPUT_FOLDER):
         index=False
     )
 
+    logger.info("Rejected transactions saved successfully.")
+
 
 def run_pipeline():
     """Run the complete financial transactions ETL pipeline."""
-    df = read_transactions()
+    configure_logging()
 
-    invalid = validate_transactions(df)
-    duplicates = remove_duplicates(df)
+    logger.info("ETL pipeline started.")
 
-    rejected_mask = invalid | duplicates
+    try:
+        df = read_transactions()
 
-    rejected = df[rejected_mask].copy()
-    cleaned = df[~rejected_mask].copy()
+        invalid = validate_transactions(df)
+        duplicates = remove_duplicates(df)
 
-    print(f"Valid records: {len(cleaned)}")
-    print(f"Rejected records: {len(rejected)}")
+        rejected_mask = invalid | duplicates
 
-    save_clean_transactions(cleaned)
-    save_rejected_transactions(rejected)
+        rejected = df[rejected_mask].copy()
+        cleaned = df[~rejected_mask].copy()
 
-    print("ETL pipeline completed successfully!")
+        print(f"Valid records: {len(cleaned)}")
+        print(f"Rejected records: {len(rejected)}")
+
+        logger.info("Valid records: %s", len(cleaned))
+        logger.info("Rejected records: %s", len(rejected))
+
+        save_clean_transactions(cleaned)
+        save_rejected_transactions(rejected)
+
+        print("ETL pipeline completed successfully!")
+        logger.info("ETL pipeline completed successfully.")
+
+    except Exception:
+        logger.exception("ETL pipeline failed.")
+        raise
 
 
 if __name__ == "__main__":
